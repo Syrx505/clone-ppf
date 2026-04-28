@@ -306,6 +306,13 @@ export function clearCookie(req, res) {
   }
 
   res.clearCookie('ppfun.session', {
+    domain, 
+    httpOnly: true, 
+    secure: true,     // Bura da TRUE olmalıdır
+    sameSite: 'None'
+  });
+}
+  res.clearCookie('ppfun.session', {
     domain, httpOnly: true, secure: false,
   });
 }
