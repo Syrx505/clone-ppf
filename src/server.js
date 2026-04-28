@@ -26,8 +26,9 @@ import socketEvents from './socket/socketEvents.js';
 import SocketServer from './socket/SocketServer.js';
 import APISocketServer from './socket/APISocketServer.js';
 
+// REDIS_URL-i buradan sildim, aşağıda process.env ilə yoxlayacağıq
 import {
-  PORT, HOST, HOURLY_EVENT, FISHING, BASENAME, REDIS_URL
+  PORT, HOST, HOURLY_EVENT, FISHING, BASENAME,
 } from './core/config.js';
 import { SECOND } from './core/constants.js';
 
@@ -40,7 +41,7 @@ if (process.env.NODE_ENV && __dirname) {
 const app = express();
 app.disable('x-powered-by');
 
-// RENDER ÜÇÜN PROKSİ (Sessiya üçün çox vacibdir)
+// RENDER ÜÇÜN PROKSİ
 app.set('trust proxy', 1); 
 
 const limiter = rateLimit({
@@ -92,17 +93,19 @@ app.use(compression({
 
 app.use(routes);
 
-// --- STARTUP LOGIC ---
-console.log('🔄 Verilənlər bazası sinxronizasiya edilir...');
+// --- BAŞLATMA LOGİKASI ---
+console.log('🔄 Server hazırlanır...');
 
 syncSql()
   .then(() => {
-    console.log('✅ MySQL Sinxronizasiya olundu.');
-    console.log(`🔄 Redis-ə qoşulmağa cəhd edilir: ${REDIS_URL ? 'URL var' : 'URL YOXDUR!'}`);
+    console.log('✅ MySQL qoşuldu.');
+    // REDIS_URL yoxlanışı
+    const rUrl = process.env.REDIS_URL || 'Tapılmadı';
+    console.log(`🔄 Redis bağlantısı qurulur... URL: ${rUrl.substring(0, 15)}...`);
     return connectRedis();
   })
   .then(async () => {
-    console.log('✅ REDIS BAĞLANTISI UĞURLUDUR!');
+    console.log('✅ REDIS QOŞULDU!');
     
     User.setMailProvider(mailProvider);
     chatProvider.initialize();
@@ -112,17 +115,13 @@ syncSql()
     apisocket.initialize();
     canvasCleaner.initialize();
     
-    const startServer = () => {
-      const finalPort = process.env.PORT || PORT || 10000;
-      server.listen(finalPort, '0.0.0.0', () => {
-        console.log(`🚀 SERVER ${finalPort} PORTUNDA HAZIRDIR!`);
-      });
-    };
-    startServer();
+    const finalPort = process.env.PORT || PORT || 10000;
+    server.listen(finalPort, '0.0.0.0', () => {
+      console.log(`🚀 SERVER ${finalPort} PORTUNDA AKTİVDİR!`);
+    });
 
     server.on('error', (e) => {
       console.error(`❌ Server xətası: ${e.code}`);
-      setTimeout(startServer, 5000);
     });
   })
   .then(async () => {
@@ -132,5 +131,5 @@ syncSql()
     if (FISHING) initializeFishing();
   })
   .catch(err => {
-    console.error('🛑 KRİTİK BAŞLATMA XƏTASI:', err);
+    console.error('🛑 BAŞLATMA XƏTASI:', err);
   });
