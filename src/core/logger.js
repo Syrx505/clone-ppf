@@ -1,45 +1,33 @@
-/**
- * Advanced Logging for PixelPlanet Clone
- * Optimized for Render.com and automatic directory creation
- */
-
 import fs from 'fs';
 import path from 'path';
 import { createLogger, format, transports } from 'winston';
 import DailyRotateFile from 'winston-daily-rotate-file';
-
 import { PORT } from './config.js';
 
-// Qovluqları mütləq yolla (absolute path) təyin edirik ki, sistem çaşmasın
-const logDir = path.resolve('log');
-const modLogDir = path.resolve('log/moderation');
+// Proqramın işlədiyi ana qovluğu tapırıq
+const ROOT_DIR = process.cwd();
+const LOG_BASE = path.join(ROOT_DIR, 'log');
+const MOD_LOG_BASE = path.join(LOG_BASE, 'moderation');
 
-// Qovluqları proqramın ən başında yaradırıq
-[logDir, modLogDir].forEach(dir => {
+// Qovluqları mütləq yolla yaradırıq
+[LOG_BASE, MOD_LOG_BASE].forEach(dir => {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
-    console.log(`[Logger] Created directory: ${dir}`);
+    console.log(`[Logger] Ensuring directory exists at: ${dir}`);
   }
 });
 
-// Prefiksləri Render-in gözlədiyi formatda (relativ amma nöqtəsiz) düzəldirik
-export const PIXELLOGGER_PREFIX = 'log/pixels-10000-';
-const PROXYLOGGER_PREFIX = 'log/proxycheck-10000-';
-const MODTOOLLOGGER_PREFIX = 'log/moderation/modtools-10000-';
+// Winston üçün fayl yollarını mütləq yola çeviririk
+export const PIXELLOGGER_PREFIX = path.join(LOG_BASE, `pixels-${PORT}-`);
+const PROXYLOGGER_PREFIX = path.join(LOG_BASE, `proxycheck-${PORT}-`);
+const MODTOOLLOGGER_PREFIX = path.join(MOD_LOG_BASE, `modtools-${PORT}-`);
 
-// Əsas logger (Konsol üçün)
 const logger = createLogger({
   level: 'info',
-  format: format.combine(
-    format.splat(),
-    format.simple(),
-  ),
-  transports: [
-    new transports.Console(),
-  ],
+  format: format.combine(format.splat(), format.simple()),
+  transports: [new transports.Console()],
 });
 
-// Piksel hərəkətləri üçün logger
 export const pixelLogger = createLogger({
   format: format.printf(({ message }) => message),
   transports: [
@@ -47,17 +35,12 @@ export const pixelLogger = createLogger({
       filename: `${PIXELLOGGER_PREFIX}%DATE%.log`,
       maxFiles: '14d',
       utc: true,
-      createSymlink: false, // Render-də xəta verməməsi üçün
     }),
   ],
 });
 
-// Proxy/VPN yoxlamaları üçün logger
 export const proxyLogger = createLogger({
-  format: format.combine(
-    format.splat(),
-    format.simple(),
-  ),
+  format: format.combine(format.splat(), format.simple()),
   transports: [
     new DailyRotateFile({
       level: 'info',
@@ -69,7 +52,6 @@ export const proxyLogger = createLogger({
   ],
 });
 
-// Moderator hərəkətləri üçün logger
 export const modtoolsLogger = createLogger({
   format: format.printf(({ message }) => message),
   transports: [
