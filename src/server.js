@@ -6,7 +6,7 @@ import url from 'url';
 import compression from 'compression';
 import express from 'express';
 import http from 'http';
-import rateLimit from 'express-rate-limit'; // DDoS qoruması üçün
+import rateLimit from 'express-rate-limit';
 
 import forceGC from './core/forceGC.js';
 import logger from './core/logger.js';
@@ -33,9 +33,6 @@ import { SECOND } from './core/constants.js';
 
 import startAllCanvasLoops from './core/tileserver.js';
 
-/*
- * in final bundle make sure to cd to dir of script, just because
- */
 if (process.env.NODE_ENV && __dirname) {
   process.chdir(__dirname);
 }
@@ -43,31 +40,32 @@ if (process.env.NODE_ENV && __dirname) {
 const app = express();
 app.disable('x-powered-by');
 
-// --- DDOS QORUMASI (RATE LIMITER) ---
+/**
+ * 🛠 RENDER ÜÇÜN PROKSİ VƏ RATE LIMIT AYARLARI
+ */
+app.set('trust proxy', 1); // Render IP-lərini düzgün tanımaq üçün ən başda olmalıdır
+
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 dəqiqəlik zaman dilimi
-  max: 100, // Hər IP üçün bu vaxt ərzində maksimum 100 sorğu
+  windowMs: 1 * 60 * 1000, // 1 dəqiqə
+  max: 1000, // Pixel oyunu üçün sorğu sayını 1000-ə qaldırdıq
   message: 'Həddindən artıq sorğu göndərildi, xahiş edirik bir az gözləyin.',
   standardHeaders: true,
   legacyHeaders: false,
+  skip: (req) => req.url.includes('/assets/') || req.url.includes('/tiles/'),
 });
 app.use(limiter);
-app.set('trust proxy', 1); // Render proxy arxasında IP-ləri düzgün tanımaq üçün
-// ------------------------------------
 
-// Call Garbage Collector every 30 seconds
+// Garbage Collector
 setInterval(forceGC, 10 * 60 * SECOND);
 
-// create http server
 const server = http.createServer(app);
 
-//
-// websockets
-// -----------------------------------------------------------------------------
+// Websockets
 const usersocket = new SocketServer();
 const apisocket = new APISocketServer();
 const wsUrl = `${BASENAME}/ws`;
 const apiWsUrl = `${BASENAME}/mcws`;
+
 async function wsupgrade(request, socket, head) {
   const { pathname } = url.parse(request.url);
   try {
@@ -87,12 +85,6 @@ async function wsupgrade(request, socket, head) {
 }
 server.on('upgrade', wsupgrade);
 
-/*
- * use gzip compression for following calls
- * level from -1 (default, 6) to 0 (no) from 1 (fastest) to 9 (best)
- *
- * Set custom filter to make sure that .bmp files get compressed
- */
 app.use(compression({
   level: 3,
   filter: (req, res) => {
@@ -106,12 +98,8 @@ app.use(compression({
 
 app.use(routes);
 
-//
-// ip config
-// -----------------------------------------------------------------------------
-// sync sql models
+// Sync Database & Start
 syncSql()
-  // connect to redis
   .then(connectRedis)
   .then(async () => {
     User.setMailProvider(mailProvider);
@@ -122,24 +110,18 @@ syncSql()
     apisocket.initialize();
     canvasCleaner.initialize();
     
-    // START SERVER MODIFIED FOR RENDER
     const startServer = () => {
       const finalPort = process.env.PORT || PORT || 10000;
-      const finalHost = '0.0.0.0'; // Render üçün mütləqdir
+      const finalHost = '0.0.0.0'; 
 
       server.listen(finalPort, finalHost, () => {
-        logger.info(
-          `HTTP Server listening on port ${finalPort} at ${finalHost}`,
-        );
+        logger.info(`HTTP Server listening on port ${finalPort} at ${finalHost}`);
       });
     };
     startServer();
 
-    // catch errors of server
     server.on('error', (e) => {
-      logger.error(
-        `HTTP Server Error ${e.code} occurred, trying again in 5s...`,
-      );
+      logger.error(`HTTP Server Error ${e.code} occurred, trying again in 5s...`);
       setTimeout(() => {
         server.close();
         startServer();
@@ -150,9 +132,6 @@ syncSql()
     await socketEvents.initialize();
   })
   .then(async () => {
-    if (socketEvents.isCluster && socketEvents.important) {
-      logger.info('I am the main shard');
-    }
     rankings.initialize();
     if (HOURLY_EVENT) {
       setTimeout(() => {
