@@ -1,28 +1,31 @@
 /**
  * Advanced Logging for PixelPlanet Clone
- * Updated to support automatic directory creation
+ * Optimized for Render.com and automatic directory creation
  */
 
 import fs from 'fs';
+import path from 'path';
 import { createLogger, format, transports } from 'winston';
 import DailyRotateFile from 'winston-daily-rotate-file';
 
 import { PORT } from './config.js';
 
-// Qovluq yollarını təyin edirik
-export const PIXELLOGGER_PREFIX = `./log/pixels-${PORT}-`;
-const PROXYLOGGER_PREFIX = `./log/proxycheck-${PORT}-`;
-const MODTOOLLOGGER_PREFIX = `./log/moderation/modtools-${PORT}-`;
+// Qovluqları mütləq yolla (absolute path) təyin edirik ki, sistem çaşmasın
+const logDir = path.resolve('log');
+const modLogDir = path.resolve('log/moderation');
 
-// Qovluqları avtomatik yaradan hissə
-// 'recursive: true' sayəsində daxili qovluqları (moderation) da yaradır
-const directories = ['./log', './log/moderation'];
-directories.forEach(dir => {
+// Qovluqları proqramın ən başında yaradırıq
+[logDir, modLogDir].forEach(dir => {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
-    console.log(`Created directory: ${dir}`);
+    console.log(`[Logger] Created directory: ${dir}`);
   }
 });
+
+// Prefiksləri Render-in gözlədiyi formatda (relativ amma nöqtəsiz) düzəldirik
+export const PIXELLOGGER_PREFIX = 'log/pixels-10000-';
+const PROXYLOGGER_PREFIX = 'log/proxycheck-10000-';
+const MODTOOLLOGGER_PREFIX = 'log/moderation/modtools-10000-';
 
 // Əsas logger (Konsol üçün)
 const logger = createLogger({
@@ -44,7 +47,7 @@ export const pixelLogger = createLogger({
       filename: `${PIXELLOGGER_PREFIX}%DATE%.log`,
       maxFiles: '14d',
       utc: true,
-      colorize: false,
+      createSymlink: false, // Render-də xəta verməməsi üçün
     }),
   ],
 });
@@ -59,10 +62,9 @@ export const proxyLogger = createLogger({
     new DailyRotateFile({
       level: 'info',
       filename: `${PROXYLOGGER_PREFIX}%DATE%.log`,
-      maxsize: '10m',
+      maxSize: '10m',
       maxFiles: '14d',
       utc: true,
-      colorize: false,
     }),
   ],
 });
@@ -77,7 +79,6 @@ export const modtoolsLogger = createLogger({
       maxSize: '20m',
       maxFiles: '14d',
       utc: true,
-      colorize: false,
     }),
   ],
 });
