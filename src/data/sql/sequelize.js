@@ -274,5 +274,3 @@ END`,
 };
 
 export default sequelize;
-
-export default sequelize;
