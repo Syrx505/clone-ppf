@@ -27,7 +27,7 @@ import SocketServer from './socket/SocketServer.js';
 import APISocketServer from './socket/APISocketServer.js';
 
 import {
-  PORT, HOST, HOURLY_EVENT, FISHING, BASENAME,
+  PORT, HOST, HOURLY_EVENT, FISHING, BASENAME, REDIS_URL
 } from './core/config.js';
 import { SECOND } from './core/constants.js';
 
@@ -40,27 +40,23 @@ if (process.env.NODE_ENV && __dirname) {
 const app = express();
 app.disable('x-powered-by');
 
-/**
- * 🛠 RENDER ÜÇÜN PROKSİ VƏ RATE LIMIT AYARLARI
- */
-app.set('trust proxy', 1); // Render IP-lərini düzgün tanımaq üçün ən başda olmalıdır
+// RENDER ÜÇÜN PROKSİ (Sessiya üçün çox vacibdir)
+app.set('trust proxy', 1); 
 
 const limiter = rateLimit({
-  windowMs: 1 * 60 * 1000, // 1 dəqiqə
-  max: 1000, // Pixel oyunu üçün sorğu sayını 1000-ə qaldırdıq
-  message: 'Həddindən artıq sorğu göndərildi, xahiş edirik bir az gözləyin.',
+  windowMs: 1 * 60 * 1000,
+  max: 1000,
+  message: 'Həddindən artıq sorğu göndərildi.',
   standardHeaders: true,
   legacyHeaders: false,
   skip: (req) => req.url.includes('/assets/') || req.url.includes('/tiles/'),
 });
 app.use(limiter);
 
-// Garbage Collector
 setInterval(forceGC, 10 * 60 * SECOND);
 
 const server = http.createServer(app);
 
-// Websockets
 const usersocket = new SocketServer();
 const apisocket = new APISocketServer();
 const wsUrl = `${BASENAME}/ws`;
@@ -89,19 +85,25 @@ app.use(compression({
   level: 3,
   filter: (req, res) => {
     const contentType = res.getHeader('Content-Type');
-    if (contentType === 'application/octet-stream') {
-      return true;
-    }
+    if (contentType === 'application/octet-stream') return true;
     return compression.filter(req, res);
   },
 }));
 
 app.use(routes);
 
-// Sync Database & Start
+// --- STARTUP LOGIC ---
+console.log('🔄 Verilənlər bazası sinxronizasiya edilir...');
+
 syncSql()
-  .then(connectRedis)
+  .then(() => {
+    console.log('✅ MySQL Sinxronizasiya olundu.');
+    console.log(`🔄 Redis-ə qoşulmağa cəhd edilir: ${REDIS_URL ? 'URL var' : 'URL YOXDUR!'}`);
+    return connectRedis();
+  })
   .then(async () => {
+    console.log('✅ REDIS BAĞLANTISI UĞURLUDUR!');
+    
     User.setMailProvider(mailProvider);
     chatProvider.initialize();
     startAllCanvasLoops();
@@ -112,33 +114,23 @@ syncSql()
     
     const startServer = () => {
       const finalPort = process.env.PORT || PORT || 10000;
-      const finalHost = '0.0.0.0'; 
-
-      server.listen(finalPort, finalHost, () => {
-        logger.info(`HTTP Server listening on port ${finalPort} at ${finalHost}`);
+      server.listen(finalPort, '0.0.0.0', () => {
+        console.log(`🚀 SERVER ${finalPort} PORTUNDA HAZIRDIR!`);
       });
     };
     startServer();
 
     server.on('error', (e) => {
-      logger.error(`HTTP Server Error ${e.code} occurred, trying again in 5s...`);
-      setTimeout(() => {
-        server.close();
-        startServer();
-      }, 5000);
+      console.error(`❌ Server xətası: ${e.code}`);
+      setTimeout(startServer, 5000);
     });
   })
   .then(async () => {
     await socketEvents.initialize();
-  })
-  .then(async () => {
     rankings.initialize();
-    if (HOURLY_EVENT) {
-      setTimeout(() => {
-        rpgEvent.initialize();
-      }, 10000);
-    }
-    if (FISHING) {
-      initializeFishing();
-    }
+    if (HOURLY_EVENT) rpgEvent.initialize();
+    if (FISHING) initializeFishing();
+  })
+  .catch(err => {
+    console.error('🛑 KRİTİK BAŞLATMA XƏTASI:', err);
   });
