@@ -6,6 +6,7 @@ import url from 'url';
 import compression from 'compression';
 import express from 'express';
 import http from 'http';
+import rateLimit from 'express-rate-limit'; // DDoS qoruması üçün
 
 import forceGC from './core/forceGC.js';
 import logger from './core/logger.js';
@@ -42,6 +43,17 @@ if (process.env.NODE_ENV && __dirname) {
 const app = express();
 app.disable('x-powered-by');
 
+// --- DDOS QORUMASI (RATE LIMITER) ---
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 dəqiqəlik zaman dilimi
+  max: 100, // Hər IP üçün bu vaxt ərzində maksimum 100 sorğu
+  message: 'Həddindən artıq sorğu göndərildi, xahiş edirik bir az gözləyin.',
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+app.use(limiter);
+app.set('trust proxy', 1); // Render proxy arxasında IP-ləri düzgün tanımaq üçün
+// ------------------------------------
 
 // Call Garbage Collector every 30 seconds
 setInterval(forceGC, 10 * 60 * SECOND);
@@ -109,16 +121,20 @@ syncSql()
     usersocket.initialize();
     apisocket.initialize();
     canvasCleaner.initialize();
-    // start http server
+    
+    // START SERVER MODIFIED FOR RENDER
     const startServer = () => {
-      server.listen(PORT, HOST, () => {
+      const finalPort = process.env.PORT || PORT || 10000;
+      const finalHost = '0.0.0.0'; // Render üçün mütləqdir
+
+      server.listen(finalPort, finalHost, () => {
         logger.info(
-          'info',
-          `HTTP Server listening on port ${PORT}`,
+          `HTTP Server listening on port ${finalPort} at ${finalHost}`,
         );
       });
     };
     startServer();
+
     // catch errors of server
     server.on('error', (e) => {
       logger.error(
@@ -134,20 +150,11 @@ syncSql()
     await socketEvents.initialize();
   })
   .then(async () => {
-    /*
-     * initializers that rely on the cluster being fully established
-     * i.e. to know if it is the shard that runs the event
-     */
     if (socketEvents.isCluster && socketEvents.important) {
       logger.info('I am the main shard');
     }
     rankings.initialize();
     if (HOURLY_EVENT) {
-      /*
-       * give us 10s extra of negotating shards,
-       * TODO: initialize RpgEvent either in a redis lua function or in a
-       * single transaction, so we can not clash with other shards
-       */
       setTimeout(() => {
         rpgEvent.initialize();
       }, 10000);
