@@ -1,0 +1,804 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: weblate <weblate@noreply.pixelplanet.fun>\n"
+"Language-Team: \n"
+"Language: os\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+msgid "1bit"
+msgstr "1бит"
+
+msgid "2bit"
+msgstr ""
+
+msgid "3D Canvas"
+msgstr "3D Четæн"
+
+msgid "A 3D globe of our whole map"
+msgstr "Æртæбаргæ глобус алцы нæ картæ"
+
+msgid ""
+"A canvas for the most active players from the the previous day. Daily "
+"ranking updates at 00:00 UTC."
+msgstr ""
+
+msgid "A file was too large"
+msgstr ""
+
+msgid "Access modtools"
+msgstr ""
+
+msgid "Add Application"
+msgstr ""
+
+msgid "Add an Application (OIDC Client)"
+msgstr ""
+
+msgid "Add new application"
+msgstr ""
+
+msgid "An error occured. Please try again later."
+msgstr ""
+
+msgid "Application changed successfully"
+msgstr ""
+
+msgid "Application deleted"
+msgstr ""
+
+msgid "Application successfully added"
+msgstr ""
+
+msgid "Avatar can only be an image"
+msgstr ""
+
+msgid "Black and White canvas"
+msgstr "Сау æмæ Урс четæн"
+
+msgid "Can not chat while being banned"
+msgstr ""
+
+#, javascript-format
+msgid ""
+"Can not upload this many files at once, only 5 are allowed, you have $"
+"{ amountOfFiles }"
+msgstr ""
+
+msgid "Click here"
+msgstr "Ныкъкъæрцц ам"
+
+msgid "Click to Verify"
+msgstr "Æлхъив цæмæй сфидар"
+
+msgid "Client Name"
+msgstr ""
+
+msgid "Confirm New Password"
+msgstr "Ног Паролы Сфидар"
+
+msgid ""
+"Conquer land on a smaller earth with protected ocean. Shares cooldown with "
+"earth canvas!"
+msgstr ""
+
+msgid "Consent"
+msgstr ""
+
+msgid "Coronavirus"
+msgstr "Къоронавирус"
+
+msgid "Could not close this Session."
+msgstr ""
+
+msgid "Could not find this login method"
+msgstr ""
+
+msgid "Could not leave this channel"
+msgstr ""
+
+msgid "Could not set your avtar"
+msgstr ""
+
+msgid "Could not upload all files"
+msgstr ""
+
+msgid "Couldn't find this mail in our database"
+msgstr "Æнæ бантыс ссары фыстæг ай нæ бындуры бæрæггæнæнтæмæ"
+
+msgid "Default"
+msgstr ""
+
+msgid "Delete Application"
+msgstr ""
+
+msgid "Display name for your OIDC client"
+msgstr ""
+
+msgid "Double click on globe to go back."
+msgstr "Дыууæ хатты глобусы ныкъкъæрцц, цæмæй раздæх."
+
+msgid "E-Mail already in use."
+msgstr "Електронон адрис æрцахс нырид."
+
+msgid "Earth"
+msgstr "Зæхх"
+
+msgid "Edit existing applications"
+msgstr ""
+
+msgid "Email can't be empty."
+msgstr "Електронон посты æнæ чи зоны афтид."
+
+msgid "Email can't be longer than 40 characters."
+msgstr "Електронон пост æнæ чи зоны даргъ 40 символы."
+
+msgid "Email should at least contain a dot"
+msgstr "Електронон пост дар хæссы кæд у тæпп"
+
+msgid "Email should be at least 5 characters long."
+msgstr "Електронон пост дары æнæ къаддæр у цæмæй 5 символæй."
+
+msgid "Email should contain a @"
+msgstr "Електронон пост дар хæссы @"
+
+msgid "Error"
+msgstr ""
+
+msgid "Failed to create a new user :("
+msgstr ""
+
+#, javascript-format
+msgid ""
+"File ${ filename } has ${ sizeMB } MB and is too large. It may only be $"
+"{ MAX_FILE_SIZE_MB } MB"
+msgstr ""
+
+#, javascript-format
+msgid "File ${ filename } has an invalid extension"
+msgstr ""
+
+msgid "File is broken"
+msgstr ""
+
+#. 'client_secret' is a technical term and should not be translated
+msgid ""
+"Generate a new client_secret. The old secret will become invalid immediately."
+msgstr ""
+
+msgid "Get email address"
+msgstr ""
+
+msgid "Get the amount of Pixels placed and ranking"
+msgstr ""
+
+msgid ""
+"Have fun and don't hesitate to contact us if you encounter any problems :)"
+msgstr "Ивхæрс æмæ æфсæрмы нæй баздæх махæн, ды савзæр куы рæдыдтæ :)"
+
+msgid "Hello"
+msgstr "Байрай"
+
+#, javascript-format
+msgid "Hello ${ email }, you can set your new password here:"
+msgstr ""
+
+#, javascript-format
+msgid "Hello ${ name }"
+msgstr "Байрай ${ name }"
+
+msgid ""
+"If this was you, please ignore this email. If it wasn't you, please go to <a "
+"href=\"https://pixelplanet.fun\">pixelplanet.fun</a> and log-out any session "
+"that you are unaware of under \"Login Methods\" in the User Area and change "
+"your password."
+msgstr ""
+
+#, javascript-format
+msgid ""
+"If you did not request this mail, please just ignore it (the ip that "
+"requested this mail was ${ ip })."
+msgstr ""
+"Куы æнæ фæрсы дæ фыстæг ай, æнцонæй ницæмæ уый (IP-Адрис, кæцы æрфæрс фыстæг "
+"ай ${ip} у)."
+
+msgid "Incorrect password!"
+msgstr "Æнæраст парол!"
+
+msgid "Invalid type of media"
+msgstr ""
+
+msgid "Invalid url :( Please check your mail again."
+msgstr "URL æнæраст :( табуафси посты рабæлвырд иу хатт ма."
+
+msgid "Just admins can do that"
+msgstr ""
+
+msgid "Just janny, mod or admin can do that"
+msgstr ""
+
+msgid "Just mods and admins can do that"
+msgstr ""
+
+msgid "Know that an account exists"
+msgstr ""
+
+#. "scopes" is a technical term and should not be translated
+msgid "List of available scopes"
+msgstr ""
+
+msgid "Loading..."
+msgstr "Æрбавгæд..."
+
+msgid "Login from new location on PixelPlanet"
+msgstr ""
+
+msgid "Login is required"
+msgstr ""
+
+msgid "Mail is already in use!"
+msgstr ""
+
+msgid "Mail is not configured on the server"
+msgstr ""
+
+msgid "Mail verification"
+msgstr "Посты басгæрст"
+
+msgid "MimeType or extension not known or supported"
+msgstr ""
+
+#, javascript-format
+msgid "Mimetype ${ mimeType } of file ${ filename } is invalid or not allowed"
+msgstr ""
+
+msgid "Minimap"
+msgstr ""
+
+msgid "Mirror of PixelCanvas"
+msgstr "Айдæн пикселы четæн"
+
+msgid "Mirror of PixelZone"
+msgstr "Айдæн пикселы таг"
+
+msgid "Moon"
+msgstr "Мæй"
+
+msgid ""
+"Moon canvas. Safe space for art. No flags or large text (unless part of art) "
+"or art larger than 1.5k x 1.5k pixels."
+msgstr ""
+"Мæйы четæн. Æдас бынат аивадæн. Тырысæйы никæцы, тексты егъау (æддæмæ "
+"иллиустраци) кæнæ иллиустрацийы бæрц 1,5 х 1,5 пикселы миндæр."
+
+msgid "Name already in use."
+msgstr ""
+
+msgid "Name can't be empty."
+msgstr "Ном æнæ чи зоны афтид."
+
+msgid "Name contains invalid character like @, /, \\ or #"
+msgstr "Ном дары æнæруадзгæ символ, зæгъæм @, /, \\ кæнæ #"
+
+msgid "Name is too long"
+msgstr ""
+
+#, fuzzy
+msgid "Name must be at least 2 characters long"
+msgstr "Ном дары у æнæ къаддæр цæмæй 4 символæй"
+
+msgid "Name must be shorter than 26 characters"
+msgstr "Ном чи зоны цыбыр 26 символы"
+
+msgid "Name or Email does not exist!"
+msgstr ""
+
+msgid "New Password"
+msgstr "Ног парол"
+
+#, fuzzy
+msgid "No Captcha given"
+msgstr "Captcha тексты æнæ бацамон"
+
+msgid "No file metadata given"
+msgstr ""
+
+msgid "No or invalid fish id."
+msgstr ""
+
+msgid "No password given."
+msgstr "Парол æнæ бацамон."
+
+#. "redirect_uris" is a technical term and should not be translated
+msgid "No redirect_uris given."
+msgstr ""
+
+msgid "No such badge found"
+msgstr ""
+
+msgid "No such fish found"
+msgstr ""
+
+msgid "One redirect URIs per line"
+msgstr ""
+
+msgid "One redirect_uri per line"
+msgstr ""
+
+#. "redirect_uris" is a technical term and should not be translated
+msgid "Only five redirect_uris are allowed per client"
+msgstr ""
+
+msgid "Only four colors. Same rules as moon!"
+msgstr ""
+
+msgid "OpenID Connect specs"
+msgstr ""
+
+msgid "Or by copying following url:"
+msgstr "Кæнæ къопи ис ма фæдылдзог URL:"
+
+#, fuzzy
+msgid "Our main canvas, a huge map of the world. Place anywhere you like!"
+msgstr ""
+"Нæ сæйраг четæн, тынг стыр дунейы картæ. Бынат алкæм, кæм зæрдæдмæ цæуы дæ"
+
+msgid "Password must be at least 6 characters long."
+msgstr "Парол хъаумæ у æнæ къаддæр цæмæй 6 символæй."
+
+msgid "Password must be shorter than 60 characters."
+msgstr "Парол хъаумæ у цыбыр 60 символы."
+
+msgid "Password successfully changed."
+msgstr "Парол æнтыстджынæй ивыдзинад."
+
+msgid "Permission"
+msgstr ""
+
+msgid "PixelCanvas"
+msgstr "Пикселы Четæн"
+
+msgid "PixelPlanet.Fun 3DGlobe"
+msgstr "PixelPlanet.Fun Æртæбаргæ глобус"
+
+msgid "PixelZone"
+msgstr "Пикселы Таг"
+
+#, javascript-format
+msgid ""
+"Pixelplanet fulfills the OpenID Connect (OIDC) specifications. So an "
+"application that supports OIDC could ask for consent and login using "
+"pixelplanet accounts. The required endpoints can be auto-discovered via the $"
+"{ wellKnownUrl } URL."
+msgstr ""
+
+#, fuzzy
+msgid "Place Voxels on a 3D canvas with others."
+msgstr "Вокселы æрбынат 3D четæны иумæ иннæмæ"
+
+msgid "Place color pixels on an map styled canvas with other players online"
+msgstr "Бынæттæ хуызы пикселтæ четæны стил картæмæ иумæ иннæ хъазæгтæмæ онлайн"
+
+msgid "Please refresh the website"
+msgstr ""
+
+msgid "Please try again."
+msgstr ""
+
+msgid "Please use int channel"
+msgstr "Табуафси, спайда инт къанал"
+
+msgid "Read Badges and fishes"
+msgstr ""
+
+msgid "Read name, username and account age"
+msgstr ""
+
+msgid "Redirect URIs"
+msgstr ""
+
+msgid "Regularly update this data"
+msgstr ""
+
+msgid "Request stalled"
+msgstr ""
+
+#. 'client_secret' is a technical term and should not be translated
+msgid "Reroll client_secret"
+msgstr ""
+
+msgid "Reset Password"
+msgstr "Паролы раппар"
+
+msgid "Reset your password here"
+msgstr "Дæ паролы раппар ам"
+
+msgid "Server Error"
+msgstr ""
+
+msgid "Server error while deleting user."
+msgstr ""
+
+msgid "Someone logged into your account from a new location, with the IP:"
+msgstr ""
+
+msgid "Space-separated list of available scopes"
+msgstr ""
+
+msgid ""
+"Space-separated list of default scopes, they will be used on requests if no "
+"other scope is given."
+msgstr ""
+
+#. 'scope' is used as a technical term here, do not translate that word
+msgid ""
+"Space-separated list of default scopes, they will be used on requests where "
+"no other scope is given."
+msgstr ""
+
+msgid "Space-separated list of scopes that should be available"
+msgstr ""
+
+#, fuzzy
+msgid "Special canvas to spread awareness of SARS-CoV2 (take the vax)."
+msgstr "Сæрмагонд четæн ахæлиуæн информацыл SARS-CoV2"
+
+msgid "Stop flooding."
+msgstr "Флуды æруром."
+
+msgid "Submit"
+msgstr "Сфидар кæн"
+
+msgid "Thanks"
+msgstr "Бузныг"
+
+#, javascript-format
+msgid "The file ${ filename } is banned ${ reason }. Ban ID: ${ mbid }"
+msgstr ""
+
+msgid "The user owning this badge is private"
+msgstr ""
+
+msgid "The user owning this fish is private"
+msgstr ""
+
+msgid "This application is not allowed to login"
+msgstr ""
+
+msgid "This application redirects to an unallowed page"
+msgstr ""
+
+msgid "This application sent a faulty login request with no redirection"
+msgstr ""
+
+msgid "This application uses a PKCE method we do not support"
+msgstr ""
+
+msgid "This application uses a login method we do not support"
+msgstr ""
+
+msgid ""
+"This email / password combination got hacked and leaked. To protect this "
+"account, the password has been reset. Please use the \"Forgot my password\" "
+"function below to set a new password. In the future, consider not installing "
+"malware, Thank You."
+msgstr ""
+
+msgid ""
+"This email / password combination got hacked and leaked. To protect this "
+"account, the password has been reset. Please use the \"Forgot my password\" "
+"function on the LogIn page to set a new password. In the future, consider "
+"not installing malware, Thank You."
+msgstr ""
+
+msgid "This email provider is not allowed"
+msgstr ""
+
+#, javascript-format
+msgid "This media is banned ${ reason }. Ban ID: ${ mbid }"
+msgstr ""
+
+msgid "This password-reset link isn't valid anymore :("
+msgstr "Дæнгæг ай паролы раппарæн уæлдай æнæтых :("
+
+#. "redirect_uris" is a technical term and should not be translated
+msgid "Too many or too long redirect_uris"
+msgstr ""
+
+msgid "Top10"
+msgstr ""
+
+msgid "Unknown Captcha Error"
+msgstr "Æнæзонгæ Captcha Рæдыд"
+
+#, javascript-format
+msgid "Unknown field ${ name } in request"
+msgstr ""
+
+msgid "Update Application"
+msgstr ""
+
+msgid "User ID and verification level"
+msgstr ""
+
+msgid "User doesn't exist in our database :("
+msgstr "Пайдагæнæг æнæ фæлдис нæ бындуры бæрæггæнæнтæ :("
+
+msgid "Username already in use."
+msgstr "Пайдагæнæджы ном æрцахс нырид."
+
+msgid "Username can not start with pp_"
+msgstr ""
+
+msgid "Username can only contain the characters: a-z . _ and -"
+msgstr ""
+
+msgid "Username can't be empty."
+msgstr ""
+
+msgid "Username must be at least 2 characters long"
+msgstr ""
+
+msgid "Username must be shorter than 26 characters"
+msgstr ""
+
+msgid ""
+"We already sent you a mail with instructions. Please wait before requesting "
+"another mail."
+msgstr ""
+"Мах фыстæг арвит дæ нырид амындимæ. Табуафси банхъæлмæ раздæр цæмæй фæрсын "
+"иннæ фыстæг."
+
+#, javascript-format
+msgid ""
+"We already sent you a verification mail, you can request another one in $"
+"{ minLeft } minutes."
+msgstr ""
+"Мах фыстæг арвит дæ нырид бæлвырдгæнæнимæ, æмбæлы æрфæрс ма иу ${ minLeft } "
+"минуты фæстæ."
+
+msgid "We currently do not allow file uploads"
+msgstr ""
+
+#, javascript-format
+msgid "Welcome ${ name } to PixelPlanet, please verify your mail"
+msgstr "Æгас цу ${ name } PixelPlanet'мæ, табуафси сфидар дæ пост"
+
+msgid "You already chose your username"
+msgstr ""
+
+msgid "You already have that name."
+msgstr ""
+
+msgid "You are already verified."
+msgstr ""
+
+#, javascript-format
+msgid "You are muted for another ${ timeMin } minutes"
+msgstr "Дæ зæл æгъгъæд рафтау ма ${timeMin} минуты"
+
+#, fuzzy, javascript-format
+msgid "You are muted for another ${ ttl } seconds"
+msgstr "Дæ зæл æгъгъæд рафтау ма ${ ttl } сикъунды"
+
+#, fuzzy
+msgid "You are not allowed to access this page"
+msgstr "Нæй гæнæн бацæуæн къаналмæ ай"
+
+#, fuzzy
+msgid "You are not banned"
+msgstr "Дæ аутентификацийы нæй."
+
+#, fuzzy
+msgid "You are not logged in"
+msgstr "Æгæрыстæмæй дæ æнæ бацумæ."
+
+msgid "You are now verified :)"
+msgstr "Ныр хъахъхъæн дæ :)"
+
+msgid "You are permanently muted, join our guilded to appeal the mute"
+msgstr "Дæ Фæсмынæг, баиу махæн ырдæм цæмæй аппелиацийы хъалон"
+
+#, javascript-format
+msgid "You are sending messages too fast, you have to wait ${ waitTime }s :("
+msgstr ""
+"Ды арвит фыстæджытæ æгæр тагъд, хъæуы уын банхъæлмæ кæс ${ waitTime }s :("
+
+msgid "You attached too many files"
+msgstr ""
+
+msgid ""
+"You can not delete this login method, because you have nothing else left."
+msgstr ""
+
+msgid "You can not register an account while you are banned"
+msgstr ""
+
+msgid "You can not register an account with a proxy"
+msgstr ""
+
+#, fuzzy
+msgid "You can not send chat messages while using a proxy"
+msgstr "Нæй гæнæн фыстæджы чат арвит пиксел фæрцы"
+
+msgid ""
+"You can register your own application here to get the client_id and "
+"client_secret needed to make use of this."
+msgstr ""
+
+msgid "You can't send a message this long :("
+msgstr "Нæй гæнæ фыстæджы арвит афтæ бирæ рæстæг :("
+
+msgid "You did not provide all necessary information"
+msgstr ""
+
+msgid ""
+"You do not have any email adress set. Please add one under \"Login Methods\"."
+msgstr ""
+
+msgid "You don't have access to this channel"
+msgstr "Нæй гæнæн бацæуæн къаналмæ ай"
+
+msgid "You failed your captcha"
+msgstr "Дæ Captcha фæкъуыхцы у"
+
+msgid "You forgot your password for PixelPlanet? Get a new one here"
+msgstr "Паролы дæ ферох PixelPlanet'æй? Райс ног дзаума ам"
+
+msgid "You have to fill out all fields"
+msgstr ""
+
+msgid "You must be logged in to access this page"
+msgstr ""
+
+#. "scope" is a technical term and should not be translated
+msgid "You need to define a valid scope"
+msgstr ""
+
+msgid "You need to directly access this page in the browser :("
+msgstr ""
+
+#, javascript-format
+msgid "You reached your maximum upload quota of ${ MAX_USER_MEDIA_SIZE_MB } MB"
+msgstr ""
+
+msgid ""
+"You requested to get a new password. You can change your password within the "
+"next 30min here: "
+msgstr "Æрфæрс дæ ног парол. Æмбæлы раив дæ парол цыдмæ иннæ 30 минуты ам: "
+
+msgid "You sent an empty password or invalid data :("
+msgstr "Арвит дæ афтид парол кæнæ æнæраст бæрæггæнæнтæ :("
+
+msgid "You took too long, try again"
+msgstr ""
+
+msgid "You will be automatically redirected after 15s"
+msgstr "Æгъгъæд дæ автоматы здæхтдзинад 15 сикъунды фæстæ"
+
+msgid "Your Browser looks shady"
+msgstr ""
+
+msgid "Your account needs to be verified to access this page"
+msgstr ""
+
+#, fuzzy
+msgid "Your country is temporary muted from this chat channel"
+msgstr "Дæ бæстæ рæстæгмæ чатæй рафтау"
+
+msgid "Your mail has to be verified in order to chat"
+msgstr "Дæ пост æвæццæгæн басгæрст, цæмæй чаты æмхиц уын"
+
+msgid ""
+"Your mail verification code is invalid or already expired :(, please request "
+"a new one."
+msgstr "Дæ посты басгæрстон къод æнæтых :(, табуафси бафарст ноджы ма."
+
+msgid "Your passwords do not match :("
+msgstr "Дæ паролтæ æнæ æмдзыд :("
+
+#. This media is banned xyz
+msgid "because it is propaganda"
+msgstr ""
+
+#. This media is banned xyz
+msgid "for being an attempt to scam people"
+msgstr ""
+
+#. This media is banned xyz
+msgid "for being degenerate"
+msgstr ""
+
+#. This media is banned xyz
+msgid "for containing CSAM"
+msgstr ""
+
+#. This media is banned xyz
+msgid "for containing graphic violence"
+msgstr ""
+
+#. This media is banned xyz
+msgid "for containing personal information"
+msgstr ""
+
+#. This media is banned xyz
+msgid "for glorifying terrorism"
+msgstr ""
+
+#. "redirect_uris" is a technical term and should not be translated
+msgid "redirect_uris does not look legit"
+msgstr ""
+
+msgid "to go back to pixelplanet"
+msgstr "pixelplanet'æй фæстæмæ"
+
+msgid ""
+"welcome to our little community of pixelplacers, to use your account, you "
+"have to verify your mail. You can do that here: "
+msgstr ""
+"æгас цу нæ къаннæг æмбалдмæ пикселы бакуыстгæнæг, цæмæй спайда дæ аккаунт, "
+"Дары сфидар дæ пост. Гæнæн ис сараз ай ам: "
+
+#, fuzzy
+#~ msgid "You are banned"
+#~ msgstr "Дæ аутентификацийы нæй."
+
+#, fuzzy
+#~ msgid "PixelPlanet.Fun PopUp"
+#~ msgstr "PixelPlanet.fun"
+
+#, fuzzy
+#~ msgid "PixelPlanet.Fun"
+#~ msgstr "PixelPlanet.fun"
+
+#~ msgid "PixelPlanet.fun Password Reset"
+#~ msgstr "PixelPlanet.fun паролы раппар"
+
+#, javascript-format
+#~ msgid "Hello ${ name }, you can set your new password here:"
+#~ msgstr "Байрай ${ name }. равæр дæ æмбæлы дæ ног парол ам:"
+
+#~ msgid "You took too long, try again."
+#~ msgstr "Бахардз дæ æгæр бирæ рæстæг, бафæлвар иу хатт ма."
+
+#~ msgid "Failed to create new user :("
+#~ msgstr "Ног пайдагæнæг сфæлдис æнæ бантыc :("
+
+#~ msgid "Failed to establish session after register :("
+#~ msgstr "Сеансы равæр регистраци стæй æнæ бантыс :("
+
+#~ msgid "You are not even logged in."
+#~ msgstr "Æгæрыстæмæй дæ æнæ бацумæ."
+
+#, fuzzy
+#~ msgid "Server error when logging out."
+#~ msgstr "Серверы рæдыд æрцыди"
+
+#~ msgid "You are not authenticated."
+#~ msgstr "Дæ аутентификацийы нæй."
+
+#~ msgid "PixelPlanet.fun Accounts"
+#~ msgstr "PixelPlanet.fun Аккаунттæ"
+
+#, javascript-format
+#~ msgid "Or ${ clickHere } to go back to pixelplanet"
+#~ msgstr "Кæнæ ${ clickHere } pixelplanet'мæ раздæх"
+
+#~ msgid "Couldn't send your message, pls log out and back in again."
+#~ msgstr "Фыстæджы арвит æнæ бантыс, табуафси системæй рахиз æмæ ноджы бацу."
+
+#~ msgid "Ow no! Spam protection decided to mute you"
+#~ msgstr "Уæу нæ! Спамæй хъахъхъæд аскъуыддзаг рафтау дæ"
+
+#~ msgid ""
+#~ "This passwort reset link is wrong or already expired, please request a "
+#~ "new one (Note: you can use those links just once)"
+#~ msgstr ""
+#~ "Дæнцæг ай паролы раппарæн æнæраст кæнæ æмгъуыд уый архайд ивгъуыд нырид "
+#~ "(Фиппаинаг: æмбæлы спайда дæнцæгтæ ай æрмæст иу хатт ма)"

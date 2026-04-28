@@ -1,0 +1,1941 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: weblate <weblate@noreply.pixelplanet.fun>\n"
+"Language-Team: \n"
+"Language: os\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+msgid " which is in "
+msgstr ""
+
+msgid "# Today"
+msgstr ""
+
+msgid "# Total"
+msgstr ""
+
+#, javascript-format
+msgid "${ mouseSymbol } Hold left mouse button and drag mouse to rotate"
+msgstr "${mouseSymbol} Галиу джыбы мыст уром,мысты алас цæмæй аздах"
+
+#, javascript-format
+msgid "${ mouseSymbol } Left click or ${ touchSymbol } tap to place a pixel"
+msgstr ""
+"${ mouseSymbol } Галиу джыбы мыст ныкъкъæрцц кæнæ символы фæцагай $"
+"{ touchSymbol }, цæмæй пикселы бынæттæ"
+
+#, javascript-format
+msgid "${ mouseSymbol } Right click and drag mouse to pan"
+msgstr "${ mouseSymbol } Рахиз джыбы ныкъкъæрцц мыст æмæ мыст алас стыр нывæн"
+
+#, javascript-format
+msgid ""
+"${ mouseSymbol } Right click or ${ touchSymbol } double-tap to remove a pixel"
+msgstr ""
+"${ mouseSymbol } Рахиз джыбы ныкъкъæрцц мыст кæнæ дыууæ хатты æлхъив $"
+"{ touchSymbol }, цæмæй пикселы адард"
+
+#, javascript-format
+msgid ""
+"${ mouseSymbol } Scroll mouse wheel or hold ${ mouseSymbol } middle mouse "
+"button and drag to zoom"
+msgstr ""
+"${ mouseSymbol } Мысты цалх зил кæнæ уром ${ mouseSymbol } астæуккаг мысты "
+"джыбы æмæ ахадæнæн алас"
+
+msgid "(0 = infinite)"
+msgstr ""
+
+msgid "+last hour"
+msgstr ""
+
+msgid "...loading Login methods and sessions..."
+msgstr ""
+
+msgid "A Phish!"
+msgstr ""
+
+msgid "A new verification mail is getting sent to you."
+msgstr "Æгъгъæд дæ араст ног фыстæг бæлвырдгæнæнимæ."
+
+msgid "ACCESS MODTOOLS"
+msgstr ""
+
+msgid "Add Grid (uncheck if you need a 1:1 template)"
+msgstr "Хызæджы Бафтау (тырысæйы ис, сымахæн куы шаблоны хъæуы 1:1)"
+
+#, fuzzy
+msgid "Add Template"
+msgstr "Шаблоны Равæр"
+
+#. This if for moderation tools, it's not important to translate this
+msgid "Admintools"
+msgstr "Admintools"
+
+msgid "All sound effects will be disabled."
+msgstr "Алцы зæлон архайдтæ рафтау æгъгъæд."
+
+msgid "Always show Movement Controls"
+msgstr ""
+
+msgid "Always show movement control buttons"
+msgstr ""
+
+msgid "Anti Aliasing"
+msgstr "Анти Лæгъз"
+
+msgid "Apply a filter to clean trash in large canvas areas."
+msgstr ""
+
+msgid "Archive"
+msgstr "Архив"
+
+msgid "Assign new Mod"
+msgstr "Ног моды снысан"
+
+msgid "Attach File"
+msgstr ""
+
+msgid "Auto Zoom In"
+msgstr "Автоахадæн"
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Badge Display"
+msgstr ""
+
+msgid "Badges"
+msgstr ""
+
+msgid "Ban media"
+msgstr ""
+
+msgid "Banned"
+msgstr ""
+
+#, fuzzy
+msgid "Banned? Detected as Proxy?"
+msgstr "Прокси куыд равдис?"
+
+msgid "Block"
+msgstr "Фæхъоды кæн"
+
+#, fuzzy
+msgid "Block DMs"
+msgstr "Фæхъоды кæн"
+
+msgid ""
+"Block all Private Messages. Enabling this will delete all your current DMs. "
+"You can still start new DMs with other users, but other users won't be able "
+"to start DMs with you."
+msgstr ""
+
+msgid "Blocked"
+msgstr ""
+
+msgid "Bottom-right corner"
+msgstr ""
+
+msgid "Build image and set it to protected."
+msgstr "Сурæты сфæлдис æмæ равæр йæ хъахъхъæнæн."
+
+msgid "Build image on canvas."
+msgstr "Сурæт четæныл сараз."
+
+msgid "Build image, but reset cooldown to unset-pixel cd."
+msgstr ""
+"Сурæты сфæлдис, фæлæ раппар цалцæджы рæстæг æнæравæрон пикселы æнгом-дискмæ."
+
+msgid "By Mod"
+msgstr ""
+
+msgid "Calculate like GIMP"
+msgstr ""
+
+msgid "Can not export more than 20 or no template!"
+msgstr ""
+
+msgid "Can not import more than 20 or no template!"
+msgstr ""
+
+msgid "Can't read? Reload:"
+msgstr "Арæхс ма кæсын? Бавдзаг кæн:"
+
+msgid "Can't render 3D canvas, do you have WebGL2 disabled?"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Аивын"
+
+#, fuzzy
+msgid "Cancel adding Template"
+msgstr "Шаблоны Равæр"
+
+#, fuzzy
+msgid "Canvas"
+msgstr "Четæны Равзар"
+
+msgid "Canvas Archive"
+msgstr "Четæны Архив"
+
+#, fuzzy
+msgid "Canvas Cleaner"
+msgstr "Четæны Равзæрст"
+
+#, fuzzy
+msgid "Canvas Error"
+msgstr "Четæны Архив"
+
+msgid "Canvas Selection"
+msgstr "Четæны Равзæрст"
+
+msgid "Captcha"
+msgstr ""
+
+msgid "Caught by"
+msgstr ""
+
+#, fuzzy
+msgid "Change Happened"
+msgstr "Пайдæгæнæджы ном Аивын"
+
+msgid "Change Name"
+msgstr ""
+
+msgid "Change Password"
+msgstr "Паролы Аивын"
+
+msgid "Change your Mail Adress here:"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Channel settings"
+msgstr "Къаналы рæвдзгæнæнтæ"
+
+msgid "Charts"
+msgstr ""
+
+msgid "Chat"
+msgstr "Чат"
+
+msgid "Chat here"
+msgstr "Чаты ам"
+
+msgid "Check out past versions of the canvas."
+msgstr "Рабæлвырд четæны ивгъуыд верси."
+
+msgid "Check to allow"
+msgstr ""
+
+msgid "Check who placed in an area"
+msgstr ""
+
+msgid "Choose Canvas"
+msgstr "Четæны Равзар"
+
+msgid "Choose Color Mode"
+msgstr "Хуызы Уаг Равзар"
+
+msgid "Choose Strategy"
+msgstr "Хæсты Дæсниады Равзар"
+
+msgid "Choose Username"
+msgstr ""
+
+msgid ""
+"Clean spare pixels that are surrounded by a single other color or unset "
+"pixels (VERY AGGRESSIVE ON CANVASES THAT ALLOW UNSET PIXELS (where there are "
+"two cooldowns)!)"
+msgstr ""
+
+msgid "Clean spare pixels that are surrounded by unset pixels"
+msgstr ""
+
+msgid ""
+"Clean spare pixels that are surrounded by unset pixels and up to 1 other set "
+"pixels"
+msgstr ""
+
+msgid "Cleaners can use 0cd blank colors."
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+#, javascript-format
+msgid ""
+"Click ${ mouseSymbol } middle mouse button or ${ touchSymbol } long-tap to "
+"select current hovering color"
+msgstr ""
+"Æлхъив астæуккаг джыбы мыст ${ mouseSymbol } кæнæ æрæлхъив æмæ уром $"
+"{ touchSymbol }, цæмæй равзар цæугæ хуыз басгардзинад"
+
+msgid "Click a color in palette to select it"
+msgstr "Палитры хуыз ныкъкъæрцц, цæмæй уый равзар"
+
+msgid "Click here to request a new verification mail."
+msgstr "Ныкъкъæрцц ам, цæмæй æрфæрс ног фыстæг бæлвырдгæнæнимæ."
+
+#, fuzzy
+msgid "Click to Load Captcha"
+msgstr "Captcha байдзаг бантыс ма"
+
+msgid "Click to remove"
+msgstr ""
+
+msgid "Clone"
+msgstr ""
+
+msgid "Close"
+msgstr "Сæхгæнын"
+
+msgid "Close Chat"
+msgstr "Чаты Сæхгæнын"
+
+msgid "Close Palette"
+msgstr "Палитры Сæхгæнын"
+
+msgid "Compact Chat"
+msgstr ""
+
+msgid "Compact Palette"
+msgstr "Æнгом Палитрæ"
+
+msgid "Confirm New Password"
+msgstr "Ног Паролы Сфидар"
+
+msgid "Confirm Password"
+msgstr "Паролы Сфидар кæн"
+
+#, javascript-format
+msgid "Connection error ${ code } :("
+msgstr "Бастдзинад рæдыд ${code} :("
+
+msgid "Consent"
+msgstr ""
+
+msgid "Consider joining us on Matrix:"
+msgstr ""
+
+msgid "Controls"
+msgstr "Цæстдард"
+
+msgid "Convert an image to canvas colors"
+msgstr "Сурæты рацарæзт четæны хуызимæ"
+
+msgid "Converter"
+msgstr "Къонвертер"
+
+msgid "Cooldown"
+msgstr "Цалцæджы Рæстæг"
+
+msgid ""
+"Cooldown is usually automatically changed for a country that is dominating. "
+"In example in the case of a streamer raid."
+msgstr ""
+
+#, fuzzy
+msgid "Coordinates"
+msgstr "Æнæраст Координаттæ"
+
+#, fuzzy
+msgid "Coordinates:"
+msgstr "Æнæраст Координаттæ"
+
+#, fuzzy
+msgid "Copied"
+msgstr "Къопи ис!"
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy Link"
+msgstr ""
+
+msgid "Copy Selected to Clipboard"
+msgstr ""
+
+msgid "Copy URL"
+msgstr ""
+
+msgid "Copy UserId to Clipboard"
+msgstr ""
+
+msgid "Copy to Clipboard"
+msgstr "Буферы ивдмæ Къопи ис"
+
+msgid "Could not connect to server"
+msgstr ""
+
+msgid "Could not connect to server, please try again later :("
+msgstr "Æнæ рауади сервермæ бастдзинад, фæлварæн фæлхатма фæстæдæр :("
+
+msgid "Could not load captcha"
+msgstr "Captcha байдзаг бантыс ма"
+
+msgid "Could not process files"
+msgstr ""
+
+msgid "Couldn't set Pixel"
+msgstr "Æнæ рауади пикселы равæрыв"
+
+msgid "Countries Today"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+#, fuzzy, javascript-format
+msgid "Credit for the Palette of the 2bit canvas goes to ${ donendoLink }."
+msgstr "Бузныг тыххæй «Палитры мæй» ${ donendoLink }."
+
+#, javascript-format
+msgid "Credit for the Palette of the Moon goes to ${ starhouseLink }."
+msgstr "Бузныг тыххæй «Палитры мæй» ${ starhouseLink }."
+
+#, fuzzy, javascript-format
+msgid "Credit for the Palette of the Top10 canvas goes to ${ vinikLink }."
+msgstr "Бузныг тыххæй «Палитры мæй» ${ vinikLink }."
+
+msgid "Current Cooldown Changes per Country"
+msgstr ""
+
+msgid "Custom Cursor"
+msgstr ""
+
+msgid "Custom Flag"
+msgstr ""
+
+msgid "DM"
+msgstr "Гоймагон Фыстæджытæ"
+
+#, fuzzy
+msgid "Daily Pixels per Country"
+msgstr "Равæрды Пикселтæ"
+
+#, fuzzy
+msgid "Daily Pixels per Player"
+msgstr "Æрбынтон пикселтæ"
+
+msgid "Daily Rank"
+msgstr "Алыбоны Рейтинг"
+
+msgid "Date of Award"
+msgstr ""
+
+msgid "Date of catch"
+msgstr ""
+
+#, fuzzy
+msgid "Delete"
+msgstr "Аккаунты Адард кæн"
+
+msgid "Delete Account"
+msgstr "Аккаунты Адард кæн"
+
+msgid "Deny"
+msgstr "Нæ райс"
+
+#, fuzzy
+msgid ""
+"Didn't get an answer from pixelplanet. Try to refresh if this problem "
+"persists."
+msgstr "Pixelplanet'мæ дзуаппы райс нæй? Чи зоны бафæлвар сног кæнын?"
+
+msgid "Dimensions"
+msgstr "Бæрцтæ"
+
+msgid "Disable Game Sounds"
+msgstr "Хъазты Зæл Рафтау"
+
+msgid "Disable History Pencil"
+msgstr ""
+
+msgid "Disable Overlay Pencil"
+msgstr ""
+
+#, fuzzy
+msgid "Disable Pencil"
+msgstr "Хъазты Зæл Рафтау"
+
+msgid "Display Palette in a compact form that takes less screen space."
+msgstr "Æнгом Палитрæ райста къаддæр екраны бынат."
+
+msgid "Do stuff with IPs (one IP per line)"
+msgstr "Цыфæнды араз IP-Адрисимæ (Иунæг IP-Адрис гæсгæ рæнхъы)"
+
+msgid "Don't remember"
+msgstr ""
+
+msgid "Don't show me in global stats"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download Template"
+msgstr "Шаблоны Равæр"
+
+#, javascript-format
+msgid "Drag ${ mouseSymbol } mouse or ${ touchSymbol } pan to move"
+msgstr "Алас ${mouseSymbol} мыст кæнæ ${touchSymbol} pan цæмæй бынат аив"
+
+msgid "Duration"
+msgstr ""
+
+msgid "Easter Egg OFF"
+msgstr ""
+
+msgid "Easter Egg ON"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Email"
+msgstr "Електронон Пост"
+
+msgid "Email can't be empty."
+msgstr "Електроны пост æнæ чи зоны афтид уын."
+
+msgid "Email can't be longer than 40 characters."
+msgstr "Електроны пост æнæ чи зоны даргъ 40 символы."
+
+msgid ""
+"Email is used to verify your account. You might get a cofirmation mail after "
+"registering."
+msgstr ""
+
+msgid "Email should at least contain a dot"
+msgstr "Електронон пост дары хæссын уæд та тæпп"
+
+msgid "Email should be at least 5 characters long."
+msgstr "Електроны пост дары у æнæ къаддæр цæмæй 5 символæй."
+
+msgid "Email should contain a @"
+msgstr "Електронон пост дары хæссын @"
+
+msgid "Enable Overlay"
+msgstr ""
+
+msgid "Enable Pencil"
+msgstr ""
+
+msgid "Enable chat notifications"
+msgstr "Чаты хъусыгæнæнтæ баргъæв"
+
+msgid "Enter Characters"
+msgstr "Символы Бакæн кæн"
+
+msgid "Enter Reason"
+msgstr ""
+
+msgid "Enter UserName of new Mod"
+msgstr "Пайдагæнæджы ном бакæн нæуæг мод"
+
+msgid "Enter your mail address and we will send you a new password:"
+msgstr "Дæ посты адрис мидæмæ, æмæ мах ног парол сымахæн æрæрвит:"
+
+msgid "Error"
+msgstr "Рæдыд"
+
+#, javascript-format
+msgid "Error ${ retCode }"
+msgstr "Рæдыд ${ retCode }"
+
+msgid "Error :("
+msgstr "Рæдыд :("
+
+msgid "Expand"
+msgstr ""
+
+msgid "Export enabled templates"
+msgstr ""
+
+msgid "Factions"
+msgstr ""
+
+msgid "Factor"
+msgstr ""
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Fish Display"
+msgstr ""
+
+msgid "For"
+msgstr ""
+
+msgid "For Developers"
+msgstr ""
+
+#, javascript-format
+msgid ""
+"For any legal issues, please contact ${ mailLink }. If you want to delete "
+"your data, simply delete your account, this in fact wipes all privacy "
+"relevant traces. Your placed pixels will of course not be deleted."
+msgstr ""
+
+msgid "For one day"
+msgstr ""
+
+msgid "For one month"
+msgstr ""
+
+msgid "For one week"
+msgstr ""
+
+msgid "For one year"
+msgstr ""
+
+msgid "For when you are playing on a potato."
+msgstr "Кæд картофы хъазт."
+
+msgid "Forever"
+msgstr ""
+
+msgid "From History"
+msgstr ""
+
+#, fuzzy
+msgid "From Template"
+msgstr "Шаблоны Равæр"
+
+msgid "Get IID"
+msgstr ""
+
+#, fuzzy
+msgid "Get Pixels"
+msgstr "Равæрды Пикселтæ"
+
+msgid "Get Users"
+msgstr ""
+
+msgid "Get email address"
+msgstr ""
+
+msgid "Get the amount of Pixels placed and ranking"
+msgstr ""
+
+msgid "Globe View"
+msgstr "Глобалон бакаст"
+
+msgid "Go to"
+msgstr ""
+
+msgid "Grant"
+msgstr ""
+
+msgid "Grid OFF"
+msgstr ""
+
+msgid "Grid ON"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "Have fun!"
+msgstr "Ивхæрс!"
+
+msgid "Height"
+msgstr "Бæрзонд"
+
+msgid "Help"
+msgstr "Æххуыс"
+
+#, fuzzy
+msgid ""
+"Here we collect removed canvases to archive them properly. Which is "
+"currently only one."
+msgstr ""
+"Мах ам хи рæвдз четæны ай, цæмæй аккаг фæлгонц архив кæнын уыдон (абоны бон "
+"рæстæджы æрмæст иунæг ай)."
+
+msgid "Hide Embed"
+msgstr ""
+
+msgid ""
+"Higher zoomlevels take some time to update, the 3D globe gets updated at "
+"least once per day."
+msgstr ""
+"Сногæн бæрзонд æмвæздæр масштабы хъæуын исдуг, æртæбаргæ глобус сног кæны "
+"æнæ стæмхатт боны иу хатт."
+
+msgid "Historical View"
+msgstr "Историон бакаст"
+
+#, fuzzy, javascript-format
+msgid "Hold left ${ bindShift } for pencil (to place while moving mouse)"
+msgstr "Хи уром галиу джыбы ${bindShift} æрбынатæн бынатаивд мыст цур"
+
+msgid "How pixelplanet should look like."
+msgstr "Куыд дарын pixelplanet йæ бакаст."
+
+msgid "I forgot my Password."
+msgstr "Паролы мæ ферох."
+
+msgid "IID (optional)"
+msgstr ""
+
+#, fuzzy
+msgid "IID Actions"
+msgstr "IP Архайд"
+
+msgid "IP Actions"
+msgstr "IP Архайд"
+
+msgid "Identifiers"
+msgstr ""
+
+#, javascript-format
+msgid ""
+"If you got detected as proxy, but you aren't using one, or think that you "
+"got wrongfully banned, please go to our ${ guildedLink } or send us an e-"
+"mail to ${ mailLink } and, in case of a ban, include the BID you got in the "
+"ban message."
+msgstr ""
+
+msgid ""
+"If you talk to moderators or administrators, you might get asked for one of "
+"the following identifiers:"
+msgstr ""
+
+msgid "Image Converter"
+msgstr "Сурæты Къонвертæг"
+
+msgid "Image Upload"
+msgstr "Сурæты Байдзаг"
+
+msgid "Import templates"
+msgstr ""
+
+msgid "Interval"
+msgstr ""
+
+#, fuzzy
+msgid "Interval is invalid"
+msgstr "Æнæраст Четæн"
+
+msgid "Invalid Canvas"
+msgstr "Æнæраст Четæн"
+
+msgid "Invalid Coordinates"
+msgstr "Æнæраст Координаттæ"
+
+msgid "Invalid color selected"
+msgstr "Æнæраст хуыз равзарон"
+
+msgid "Invited to Chat"
+msgstr ""
+
+msgid ""
+"It requests the following permissions. Uncheck what you don't want to grant:"
+msgstr ""
+
+msgid "Jannies can rollback and protect, but not watch or ban."
+msgstr ""
+
+msgid "Just for registered Users"
+msgstr "Регистрацион пайдагæнæгæн æрмæст"
+
+msgid "Just for verified Users"
+msgstr ""
+
+msgid "Just the Top10 of yesterday can place here"
+msgstr ""
+
+msgid "Keep Ratio"
+msgstr "Æмахаст Хæцын"
+
+msgid "Know that an account exists"
+msgstr ""
+
+msgid "Legal Requests"
+msgstr ""
+
+msgid "Light Grid"
+msgstr "Рухсы Хызæг"
+
+msgid "Load Captcha"
+msgstr ""
+
+#, fuzzy
+msgid "Loading"
+msgstr "Æрбавгæд..."
+
+msgid "Loading..."
+msgstr "Æрбавгæд..."
+
+msgid "Log out"
+msgstr "Рахиз"
+
+msgid "Log out a Session:"
+msgstr ""
+
+msgid "LogIn"
+msgstr "Бацу"
+
+msgid "Login Methods"
+msgstr ""
+
+msgid "Login to access more features and stats."
+msgstr "Бацу цæмæй бацæуæн райсын баххæстаг функци кæнæ статистикмæ."
+
+msgid "Login to grant access to other application."
+msgstr ""
+
+msgid "Login to other application"
+msgstr ""
+
+msgid "Login with Name or Mail:"
+msgstr "Ном кæнæ посты бацу:"
+
+msgid "Make Screenshot"
+msgstr "Скриншоты Саразын"
+
+msgid "Manage Moderators"
+msgstr "Модератæгтæ Тæрын"
+
+msgid "Manage Templates"
+msgstr ""
+
+msgid "Map Data"
+msgstr "Карты Бæрæггæнæнтæ"
+
+#, fuzzy
+msgid "Maximize"
+msgstr "иуыл Стыр"
+
+msgid "Media Actions"
+msgstr ""
+
+msgid "Minimum Color Distance"
+msgstr ""
+
+msgid "Moderators can access all Canvas, Watch and IID tools."
+msgstr ""
+
+#. This if for moderation tools, it's not important to translate this
+msgid "Modtools"
+msgstr "Modtools"
+
+msgid "Move"
+msgstr ""
+
+msgid "Mute Channel"
+msgstr ""
+
+msgid "Muted Sound"
+msgstr ""
+
+msgid "Name"
+msgstr "Ном"
+
+msgid "Name can't be empty."
+msgstr "Ном æнæ чи зоны афтид."
+
+msgid "Name contains invalid character like @, /, \\ or #"
+msgstr "Ном хæссы æнæруадзгæ символ, дæнцæн @, /, \\ кæнæ #"
+
+#, fuzzy
+msgid "Name must be at least 2 characters long"
+msgstr "Ном дарын у æнæ къаддæр цæмæй 4 символæй"
+
+msgid "Name must be shorter than 26 characters"
+msgstr "Ном дарын у цыбыр 26 символы"
+
+msgid "Name or Email"
+msgstr "Ном кæнæ Електронон пост"
+
+msgid "New Mail"
+msgstr "Ног Парол"
+
+msgid "New Name"
+msgstr ""
+
+msgid "New Password"
+msgstr "Ног Парол"
+
+msgid "New Username"
+msgstr "Ног Пайдагæнæджы Ном"
+
+msgid "No"
+msgstr ""
+
+msgid "No File selected to upload"
+msgstr ""
+
+msgid "No Phish!"
+msgstr ""
+
+#, fuzzy
+msgid "No captcha id given"
+msgstr "Парол æнæ бацамон."
+
+msgid "No flag selected"
+msgstr ""
+
+msgid "No or invalid captcha text"
+msgstr ""
+
+msgid "No password given."
+msgstr "Парол æнæ бацамон."
+
+msgid "Not Allowed"
+msgstr ""
+
+msgid "Not allowed"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "OIDC LogIn"
+msgstr ""
+
+msgid "OK"
+msgstr "Хорз"
+
+msgid "Offset"
+msgstr "Баххæст кæн"
+
+msgid "Oh no, the phish escaped. Better luck next time!"
+msgstr ""
+
+msgid "Old Password"
+msgstr "Зæронд Парол"
+
+#, fuzzy
+msgid "Online Users"
+msgstr "Пайдагæнæжы Хъоды айс"
+
+msgid "Online Users on Canvas"
+msgstr ""
+
+msgid "Only verified Users are currently allowed to play."
+msgstr ""
+
+msgid "Opacity of Overlay in percent."
+msgstr ""
+
+msgid "Open Chat"
+msgstr "Чаты Бакæнын"
+
+msgid "Open Palette"
+msgstr "Палитры Бакæнын"
+
+msgid "Open in PopUp"
+msgstr ""
+
+msgid "OpenID Connect Client registration"
+msgstr ""
+
+msgid ""
+"Our main canvas is a huge worldmap, you can place wherever you like, but you "
+"will have to wait a specific Cooldown between pixels. You can check out the "
+"cooldown and requirements on the Canvas Selection menu (globe button on "
+"top). Some canvases have a different cooldown for replacing a user-set "
+"pixels than placing on a unset pixel. i.e. 4s/7s means 4s on fresh pixels "
+"and 7s on already set pixels."
+msgstr ""
+"Нæ бындурон четæн - стыр дунейы картæ, кæцы æмбæлы равæр кæм фæнды, фæлæ "
+"сымахæн хъæуы факæс бæлвырдон рæстæг сфидар пикселы астæу. Ды æмбæлы рæстæг "
+"сфидар рабæлвырд у æмæ домæн меню четæны равзæрст (Глобусы джыбы уæлейæ). "
+"Кæцыдæр четæнтæ иннæ рæстæг мын ис сфидар ивдæн рардон пикселы пайдагæнæг, "
+"цæмæй æнæфидаргонд пикселæн. Ома 4s / 7s нысанта 4s ног пикселы æмæ 7s нырид "
+"æрæвæрд пикселтæ."
+
+msgid "Overlay OFF"
+msgstr ""
+
+msgid "Overlay ON"
+msgstr ""
+
+msgid "Overlay Opacity"
+msgstr ""
+
+msgid "Palette Download"
+msgstr "Палитры Байдзаг"
+
+#, javascript-format
+msgid "Palette for ${ gimpLink }"
+msgstr "Палитрæн ${ gimpLink }"
+
+msgid "Password"
+msgstr "Парол"
+
+msgid "Password must be at least 6 characters long."
+msgstr "Парол дарын у æнæ къаддæр цæмæй 6 символæй."
+
+msgid "Password must be shorter than 60 characters."
+msgstr "Парол дарын у цыбыр 60 символы."
+
+#, fuzzy
+msgid "Password successfully changed."
+msgstr "Парол æнтыстджынæй раив."
+
+msgid "Passwords do not match."
+msgstr "Парол æнæ аккаг у."
+
+#, javascript-format
+msgid "Pencil Mode for ${ canvasName } canvas"
+msgstr ""
+
+msgid "Pencil picks: "
+msgstr ""
+
+msgid "Permission"
+msgstr ""
+
+msgid "Phish!"
+msgstr ""
+
+msgid "Phishes"
+msgstr ""
+
+msgid "Ping"
+msgstr "Пинг"
+
+msgid "Pixel Notify OFF"
+msgstr ""
+
+msgid "Pixel Notify ON"
+msgstr ""
+
+msgid "Pixel Protection"
+msgstr "Пикселы Хъахъхъæд"
+
+#, fuzzy
+msgid "Pixel protected"
+msgstr "Пиксел хъахъхъæн у!"
+
+msgid "Pixels"
+msgstr ""
+
+msgid "Pixels Today"
+msgstr ""
+
+msgid "Place color pixels on a large canvas with other players online!"
+msgstr "Хуызджын пикселтæ бынæт стыр четæны иумæ иннæ хъазæгимæ онлайн!"
+
+msgid "Placed Pixels"
+msgstr "Равæрды Пикселтæ"
+
+msgid "Play a sound when new chat messages arrive"
+msgstr "Сноджы зæл фæзынд рæстæджы ног чаты фыстæджытæ"
+
+msgid "Player"
+msgstr ""
+
+#, fuzzy
+msgid "Players and Pixels per hour"
+msgstr "Равæрды Пикселтæ"
+
+msgid "Please prove that you are human"
+msgstr "Табуафси, равдис ма цы адæймаг дæ"
+
+msgid "Please refresh the website"
+msgstr ""
+
+msgid ""
+"Please verify your mail address or add a new one, otherwise your account "
+"could get deleted in the future."
+msgstr ""
+
+msgid "Political Compass Canvas"
+msgstr "Политикон Хъыбыллæ Четæн"
+
+msgid "Potato Mode"
+msgstr "Картофы Уаг"
+
+#, javascript-format
+msgid ""
+"Press ${ bindAUp }, ${ bindALeft }, ${ bindADown }, ${ bindARight } to move"
+msgstr ""
+"Æлхъив ${ bindAUp }, ${ bindALeft }, ${ bindADown }. ${ bindARight } цæмæй "
+"бынат аив"
+
+#, javascript-format
+msgid "Press ${ bindG } to toggle grid"
+msgstr "Æлхъив ${ bindG } цæмæй хызы аргъæв"
+
+#, javascript-format
+msgid "Press ${ bindH } to toggle historical view"
+msgstr "Æлхъив ${ bindH } историкон бакаст аргъæв"
+
+#, fuzzy, javascript-format
+msgid "Press ${ bindQ } and ${ bindE } to fly up and down"
+msgstr "Цæмæй тæх сæр æмæ дæлæмæ, æлхъив ${ bindQ } æмæ ${ bindE }"
+
+#, javascript-format
+msgid "Press ${ bindQ } or ${ bindE } to zoom"
+msgstr "Æлхъив ${ bindQ } кæнæ ${ bindE } бирæ кæн"
+
+#, javascript-format
+msgid "Press ${ bindR } to copy coordinates"
+msgstr "Æлхъив ${ bindR } координаты къопи ис"
+
+#, javascript-format
+msgid "Press ${ bindW }, ${ bindA }, ${ bindS }, ${ bindD } to move"
+msgstr "Æлхъив ${ bindW }, ${ bindA }, ${ bindS }. ${ bindD } цæмæй бынат аив"
+
+#, javascript-format
+msgid "Press ${ bindX } to toggle showing of pixel activity"
+msgstr "Æлхъив ${ bindX } аргъæвæн фæлгонц пикселы разæнгарддзинад"
+
+msgid "Private"
+msgstr ""
+
+msgid "Profile"
+msgstr "Профил"
+
+msgid "Public"
+msgstr ""
+
+msgid "Quick Actions"
+msgstr ""
+
+msgid "Range Banned"
+msgstr ""
+
+msgid "Ranked"
+msgstr "Рейтингмæ"
+
+msgid "Ranking updates every 5 min. Daily rankings get reset at midnight UTC."
+msgstr ""
+"Рейтинг ногæй алы 5 минуты. Æрвылбойнон рейтингтæ æппар æмбисæхсæвы "
+"æппæтдунеон координаты рæстæджыл."
+
+msgid "Read Badges and fishes"
+msgstr ""
+
+msgid "Read name, username and account age"
+msgstr ""
+
+msgid "Reason"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Register"
+msgstr "Регистраци"
+
+msgid "Register new account here"
+msgstr "Ног аккаунт регистраци ам"
+
+msgid "Regularly update this data"
+msgstr ""
+
+msgid "Reload"
+msgstr "Бавдзаг кæн"
+
+msgid "Remember this decision: "
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove Chatmod"
+msgstr ""
+
+msgid "Remove Cleaner"
+msgstr ""
+
+msgid "Remove Janny"
+msgstr ""
+
+msgid "Remove Moderator"
+msgstr "Модератæджы Адард"
+
+msgid "Remove a Login method:"
+msgstr ""
+
+msgid "Require Verification to Place"
+msgstr ""
+
+msgid "Requirements"
+msgstr "Домæнтæ"
+
+msgid "Reset"
+msgstr "Ногæй"
+
+msgid "Reset Captchas of ALL Users"
+msgstr ""
+
+msgid "Reset your password"
+msgstr ""
+
+msgid "Resize"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "Retired Canvases (history only)"
+msgstr ""
+
+msgid "Retract"
+msgstr ""
+
+msgid "Revoke consent of third party applications:"
+msgstr ""
+
+msgid "Roll different Captcha Fonts"
+msgstr ""
+
+#, fuzzy
+msgid "Rollback an area of the canvas to a set date and time"
+msgstr "Облæст четæны тулæй æрæвæрд датæмæ (00:00 UTC)"
+
+msgid "Rollback to Date"
+msgstr "Датæмæ Тулæй"
+
+msgid "Save"
+msgstr "Бавæрын"
+
+msgid "Scale Image"
+msgstr "Сурæт Масштаб кæн"
+
+#, javascript-format
+msgid "Scroll ${ mouseSymbol } mouse wheel or ${ touchSymbol } pinch to zoom"
+msgstr ""
+"Зил мысты цалх ${mouseSymbol} кæнæ æнгуылдз фæлхыскъ ${touchSymbol}, цæмæй "
+"фæфылдæр"
+
+#, fuzzy
+msgid "Select Date above"
+msgstr "Æвзаджы Равзарын"
+
+#, fuzzy
+msgid "Select File"
+msgstr "Æвзаджы Равзарын"
+
+msgid "Select Flag"
+msgstr ""
+
+msgid "Select Language"
+msgstr "Æвзаджы Равзарын"
+
+#, fuzzy
+msgid ""
+"Select the canvas you want to use.\n"
+"Every canvas is unique and has different palettes, cooldown and "
+"requirements.\n"
+"Archived canvases can be accessed here:"
+msgstr ""
+"Четæны равзар кæцы спайда фæнды дæ. Алы четæн уникал æмæ алы палитрытæ ис, "
+"рæстæг сфидар æмæ домæн. Архив æхгæд кæттаг ам ис:"
+
+msgid "Select your Avatar. Supported Formats: jpg, gif, png, webp"
+msgstr ""
+
+#, fuzzy
+msgid "Selected Color"
+msgstr "Æвзаджы Равзарын"
+
+msgid "Selected Flag:"
+msgstr ""
+
+msgid "Send"
+msgstr "Арвитын"
+
+msgid "Sent you a mail with instructions to reset your password."
+msgstr "Арвит фыстæг уын амындимæ паролы раппар гæсгæ."
+
+msgid "Serpentine"
+msgstr ""
+
+msgid "Server answered with gibberish :("
+msgstr "Сервер хатиаг æвзаг  дзуапп ратт ма"
+
+msgid ""
+"Server got confused by your pixels. Are you playing on multiple devices?"
+msgstr ""
+
+msgid "Set Password"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Set protection of areas (if you need finer grained control, use protect with "
+"image upload and alpha layers)"
+msgstr ""
+"Облæсты хъахъхъæд равæр         (дæ хъæуы куы дырыс цæстдарддæр,         "
+"хъахъхъæды спайда æрбавгæд сурæтимæ æмæ алфæ-цъар)"
+
+msgid ""
+"Setting a password allows you to login by username or email, rather than "
+"only relying on 3rd party login."
+msgstr ""
+
+msgid "Settings"
+msgstr "Рæвдзгæнæнтæ"
+
+msgid "Show Embedded"
+msgstr ""
+
+msgid "Show Grid"
+msgstr "Хызæг Равдис"
+
+msgid "Show Grid in white instead of black."
+msgstr "Хызæг æвдисын урс хуыз сау бæсты."
+
+msgid "Show Pixel Activity"
+msgstr "Пикселы разæнгарддзинад равдис"
+
+msgid "Show circles where pixels are placed."
+msgstr "Зылдтæ равдис, кæцы пикселы æрбынат."
+
+msgid "Show overlay as small individual pixels on high zoomlevels."
+msgstr ""
+
+msgid "Show templates as overlays ingame."
+msgstr ""
+
+msgid "Shrink"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Small Pixels When Zoomed"
+msgstr ""
+
+msgid "Social Settings"
+msgstr "Социалон Рæвдзгæнæнтæ"
+
+#, javascript-format
+msgid "Source for pixelplanet on ${ gitLink } or ${ downloadHereLink }."
+msgstr ""
+
+msgid "Stacking till"
+msgstr "Æвæрдмæ"
+
+msgid "Start chatting here"
+msgstr "Райдай æмхиц уын ам"
+
+msgid "Start checking for Malware"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Status: Not running"
+msgstr ""
+
+msgid "Stay logged in: "
+msgstr ""
+
+msgid "Stop Cleaner"
+msgstr ""
+
+msgid "Stop checking for Malware"
+msgstr ""
+
+msgid "Stop requiring Verification to Place"
+msgstr ""
+
+msgid "Submit"
+msgstr "Сфидар кæн"
+
+msgid "Switch Account"
+msgstr ""
+
+#, javascript-format
+msgid "Switched to ${ canvasName }"
+msgstr ""
+
+msgid "Template Name"
+msgstr ""
+
+#, fuzzy
+msgid "Templates"
+msgstr "Шаблоны Равæр"
+
+#, javascript-format
+msgid ""
+"The application ${ appName } at ${ appUrl } wants to login with your "
+"pixelplanet account ${ accountName }"
+msgstr ""
+
+msgid ""
+"The bare map data that we use, together with converted OpenStreetMap tiles "
+"for orientation, can be downloaded from mega.nz here: "
+msgstr ""
+"Спайда махæн лæгуын картæты фыссы бæрæггæнæнтæ иумæ рацарæзты фрагментимæ "
+"OpenStreetMap байдзаг здæхтæн æмбæлы сайтимæ mega.nz ам: "
+
+msgid ""
+"The name of your account, only a-z, A-Z, -, ., and - characters are allowed. "
+"It is permanent, you can not change it later."
+msgstr ""
+
+msgid "Themes"
+msgstr "Темтæ"
+
+msgid "This URL is not supported by our Media Player"
+msgstr ""
+
+msgid "This canvas doesn't exist"
+msgstr "Четæны ай æнæ фæлдис"
+
+msgid ""
+"This canvas got requested during a time of political conflicts on the main "
+"Earth canvas. It was a 1024x1024 representation of the political compass "
+"with a 5s cooldown and 60s stacking. It got launched on May 11th and "
+"remained active for months till it got shut down on November 30th."
+msgstr ""
+"Четæны ай уыд æркур рæстæджы политикон быцæу сæйраг зæххы кæттаджы. Уыд "
+"бавдыст ай политикон æнгом барлæвæрды 1024x1024 ифтыгъдимæ 5 сикъунд æмæ "
+"суммированийы 60 сикъунд. 11 майы фехс ма йæ æмæ зайы разæнгард цыды цалдæр "
+"мæй,цалынмæ сæхгæн йæ ай."
+
+msgid ""
+"This is the name that other people see, e.g. in Chat. You can change it at "
+"any time. All characters except @, /, , >, < and # are allowed."
+msgstr ""
+
+msgid "This login may only work if your account is verified."
+msgstr ""
+
+msgid "This permission is required"
+msgstr ""
+
+msgid "Timeout"
+msgstr ""
+
+msgid "Tip: Not case-sensitive; I and l are the same"
+msgstr "Уынаффæ: Регистрымæ ненкъарæг; Æз æмæ æз ахæм та"
+
+msgid ""
+"Tired of always spaming one single color? Want to create art instead, but "
+"you have to count pixels from some other image? Templates can help you with "
+"that! Templates can show as overlay and you can draw over them. One pixel on "
+"the template, should be one pixel on the canvas."
+msgstr ""
+
+msgid "To use this page, enter your Password:"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Today Placed Pixels"
+msgstr "Абонон Равæрды Пикселтæ"
+
+msgid "Top 10 Countries [pxls / day]"
+msgstr ""
+
+#, fuzzy
+msgid "Top 10 Daily Ranking"
+msgstr "Алыбоны Рейтинг"
+
+msgid "Top 10 Players [pxls / day]"
+msgstr ""
+
+msgid "Top 10 Players from Yesterday"
+msgstr ""
+
+msgid "Top-left corner"
+msgstr ""
+
+msgid "Total"
+msgstr "Иумæйæг"
+
+msgid "Total Online Users"
+msgstr ""
+
+msgid "Total Pixels"
+msgstr ""
+
+#, fuzzy
+msgid "Total Pixels per Player"
+msgstr "Æрбынтон пикселтæ"
+
+#, fuzzy
+msgid "Total Pixels placed per day"
+msgstr "Æрбынтон пикселтæ"
+
+msgid "Total Rank"
+msgstr "Иумæйаг Рейтинг"
+
+msgid ""
+"Turn every pixel in area to 0 (YOU REALLY SHOULDN'T DO THAT ON ANY AREA THAT "
+"ISN'T ALREADY MOSTLY 0)"
+msgstr ""
+
+msgid "Turn on grid to highlight pixel borders."
+msgstr "Хызæг баргъæвын цæмæй пикселы арæн равзар."
+
+msgid "Type of Mod"
+msgstr ""
+
+msgid "Type the characters from the following image:"
+msgstr "Символы бакæн иннæ сурæтимæ:"
+
+msgid "Unban media"
+msgstr ""
+
+msgid "Unblock Users"
+msgstr "Пайдагæнæжы Хъоды айс"
+
+#, fuzzy
+msgid "Unknown Captcha Error"
+msgstr "Æнæхъуыст Рæдыд"
+
+msgid "Unknown Error"
+msgstr "Æнæхъуыст Рæдыд"
+
+msgid "Unmuted Sound"
+msgstr ""
+
+msgid "Until the browser closes"
+msgstr ""
+
+msgid "Upload images to canvas"
+msgstr "Сурæт четæныл байдзаг"
+
+msgid "Use our custom cursor"
+msgstr ""
+
+#, fuzzy
+msgid "User"
+msgstr "Пайдагæнæджы Облæст"
+
+msgid "User Account"
+msgstr "Пайдагæнæджы Аккаунт"
+
+msgid "User Area"
+msgstr "Пайдагæнæджы Облæст"
+
+msgid "User ID and verification level"
+msgstr ""
+
+msgid "User Name"
+msgstr "Пайдагæнæджы Ном"
+
+msgid "Username"
+msgstr ""
+
+msgid "Username can only contain the characters: a-z . _ and -"
+msgstr ""
+
+msgid "Username can only contain the characters: a-z A-z . _ and -"
+msgstr ""
+
+msgid "Username can't be empty."
+msgstr ""
+
+msgid "Username must be at least 2 characters long"
+msgstr ""
+
+msgid "Username must be shorter than 26 characters"
+msgstr ""
+
+#, javascript-format
+msgid "We are Libre Software under the ${ agplLink }, "
+msgstr ""
+
+msgid ""
+"We decided to archive it as a timelapse with lossless encoded webm. Taking a "
+"screenshot from the timelapse results in a perfect 1:1 representation of how "
+"the canvas was at that time."
+msgstr ""
+"Сфæнд кодтон архив кæны уый куыд таймлапс шифримæ æнæ асæрф webm. Екраны "
+"хуызист таймлапсæй ратт хæрзæххæст бавдис 1:1 уыцы, кæцы уыд четæн та "
+"рæстæджы."
+
+msgid ""
+"We thank the following artists, who made their palettes available to the "
+"public on"
+msgstr ""
+
+msgid "Weird"
+msgstr "Диссаг"
+
+msgid "What the pencil should draw on the current canvas."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"While we tend to not delete canvases, some canvases are started for fun or "
+"as a request by users who like a currently popular meme. Those canvases can "
+"become dull and inactive after a while, at which point there is no reason to "
+"keep them and we may decide to remove them."
+msgstr ""
+"Кæд мах куыд уагæвæрд,четæнтæ хай нæй, кæцыдæр фæлдыст ивхæрсæнæн кæнæ "
+"курдиаты пайдагæнæг,кæцы абоны бон рæстæг мем зæрдæмæ. Четæны ай чи схъыг "
+"исдуг фæстæ, æмæ стæй цалдæр къуыри нæуæвын лæмбынæг ивындзинад, æмæ кæд "
+"уыдон æцæг лæууы уыцы нæй, цæмæй зай разæнгард, мах скъуыддзаг адард уыдон."
+
+msgid "Why?"
+msgstr ""
+
+msgid "Width"
+msgstr "Фæтæн"
+
+msgid "Wrong Color"
+msgstr "Æнæраст хуыз"
+
+msgid "YOU CAN ONLY CHOOSE YOUR USERNAME ONCE!"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "Yes, Delete My Account!"
+msgstr "О, Мæ Аккаунт Адард кæн!"
+
+msgid "Yesterday"
+msgstr ""
+
+msgid ""
+"You are a teacher and a pupil is playing this game, despite it not being "
+"suitable for them? Send us an email."
+msgstr ""
+
+#, javascript-format
+msgid ""
+"You are banned. You think it is unjustified? Check out the ${ helpButton } "
+"on how to appeal. And don't forget to include the BID you can get below."
+msgstr ""
+
+msgid "You are currently not allowed to access this game."
+msgstr ""
+
+msgid "You are not allowed to play this game right now :("
+msgstr ""
+
+msgid "You are using a Proxy."
+msgstr "Дæ прокси спайда."
+
+msgid "You are weird"
+msgstr ""
+
+msgid ""
+"You can connect to pixelplanet and use pixelplanet accounts for oauth / oidc "
+"login. See here: "
+msgstr ""
+
+#, fuzzy
+msgid "You can not access this canvas yet, because your pixel score is too low"
+msgstr ""
+"Нæй гæнæн дæ бацæуæн райсын четæнмæ ай. Сымахæн хъæуы бынæттæ скæн стылдæр "
+"пиксел"
+
+msgid "You can now place more on pixelplanet.fun :)"
+msgstr ""
+
+#, javascript-format
+msgid ""
+"You caught a Phish! It is a ${ FISH_TYPES[type].name } with ${ size }kg! As "
+"a bonus, your cooldown is reduced."
+msgstr ""
+
+msgid "You did not consent"
+msgstr ""
+
+#, fuzzy
+msgid "You failed your captcha"
+msgstr "Captcha байдзаг бантыс ма"
+
+msgid "You have no users blocked"
+msgstr "Фæхъоды пайдагæнæджытæ æнæ ард"
+
+msgid "You have to be logged in to place on this canvas"
+msgstr "Ды системы бацу дарын, цæмæй бынæттæ скæн чатæны ай"
+
+msgid "You made too many requests"
+msgstr "Ды æгæр бирæ бафарст саразта"
+
+msgid "You must be logged in to chat"
+msgstr "Ды чаты бацу дарын"
+
+msgid "You must enter a UserId"
+msgstr ""
+
+msgid "You must enter a duration"
+msgstr ""
+
+msgid "You must enter a mediaId or media BID"
+msgstr ""
+
+msgid "You must enter a reason"
+msgstr ""
+
+msgid "You must enter a username"
+msgstr ""
+
+msgid "You must enter an BID"
+msgstr ""
+
+msgid "You must enter an IID"
+msgstr ""
+
+msgid "You must enter an IID or UserId"
+msgstr ""
+
+msgid "You must enter at least one IID, User Id or BID"
+msgstr ""
+
+msgid "You took too long, try again."
+msgstr ""
+
+msgid ""
+"Your Browser doesn't allow us to use AudioContext to play sounds. Do you "
+"have some privacy feature blocking us?"
+msgstr ""
+
+msgid "Your Browser looks shady"
+msgstr ""
+
+msgid "Your Internet Provider is banned from this game"
+msgstr ""
+
+msgid "Your ban expires at "
+msgstr ""
+
+msgid ""
+"Your did not set your username yet. A username is required to login to other "
+"applications. You can set it now:"
+msgstr ""
+
+msgid "Your name is:"
+msgstr ""
+
+msgid "Your next pixels are ready"
+msgstr ""
+
+msgid ""
+"Zoom in instead of placing a pixel when you tap the canvas and your zoom is "
+"small."
+msgstr ""
+"Масштабы ахадæн уыцы бæсты цæмæй пикселы бынæттæ кæнын, кæддæ ныдзæв четæн "
+"æмæ дæ масштаб къаннæг."
+
+#, javascript-format
+msgid "and ${ canvas.req } Pixels set"
+msgstr "æмæ ${ canvas.req } Пикселтæ равæр"
+
+msgid "check compliance here"
+msgstr ""
+
+msgid "download here"
+msgstr ""
+
+msgid "or login with:"
+msgstr "кæнæ бацу æххуысимæ:"
+
+msgid "or register here:"
+msgstr "кæнæ регистраци ам:"
+
+msgid "recommended"
+msgstr "рекомендацион"
+
+#, javascript-format
+msgid "try again after ${ ti }min"
+msgstr "иу хатт ма бафæлвæрдта ${ ti }мин. фæстæ"
+
+msgid "x out of bounds"
+msgstr "x арæн æддейы"
+
+msgid "y out of bounds"
+msgstr "y арæн æддейы"
+
+msgid "z out of bounds"
+msgstr "z арæн æддейы"
+
+msgctxt "keybinds"
+msgid "A"
+msgstr "A"
+
+msgctxt "keybinds"
+msgid "B"
+msgstr ""
+
+msgctxt "keybinds"
+msgid "D"
+msgstr "D"
+
+msgctxt "keybinds"
+msgid "E"
+msgstr "E"
+
+msgctxt "keybinds"
+msgid "G"
+msgstr "G"
+
+msgctxt "keybinds"
+msgid "H"
+msgstr "H"
+
+msgctxt "keybinds"
+msgid "M"
+msgstr "M"
+
+msgctxt "keybinds"
+msgid "N"
+msgstr ""
+
+msgctxt "keybinds"
+msgid "Q"
+msgstr "Q"
+
+msgctxt "keybinds"
+msgid "R"
+msgstr "R"
+
+msgctxt "keybinds"
+msgid "S"
+msgstr "S"
+
+msgctxt "keybinds"
+msgid "Shift"
+msgstr "Shift"
+
+msgctxt "keybinds"
+msgid "T"
+msgstr ""
+
+msgctxt "keybinds"
+msgid "W"
+msgstr "W"
+
+msgctxt "keybinds"
+msgid "X"
+msgstr "X"
+
+#~ msgid "Close Menu"
+#~ msgstr "Меню Сæхгæнын"
+
+#~ msgid "Open Menu"
+#~ msgstr "Меню Бакæнын"
+
+#~ msgid "Mute"
+#~ msgstr "Фæбынæй кæн"
+
+#, fuzzy
+#~ msgid "Registration"
+#~ msgstr "Регистраци"
+
+#, fuzzy
+#~ msgid "Forgot Password"
+#~ msgstr "Паролы мæ ферох."
+
+#~ msgid "Source on "
+#~ msgstr "Гуырæн баргъæв "
+
+#~ msgid "Consider joining us on Guilded:"
+#~ msgstr "Баиу махæнмæ Guilded:"
+
+#, javascript-format
+#~ msgid "Your name is: ${ name }"
+#~ msgstr "Дæ ном: ${ name }"
+
+#~ msgid "Change Username"
+#~ msgstr "Пайдæгæнæджы ном Аивын"
+
+#~ msgid "Change Mail"
+#~ msgstr "Електронон Посты Аивын"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please verify your mail address or your account could get deleted after a "
+#~ "few days."
+#~ msgstr ""
+#~ "Табуафси сфидар дæ адрис електронон пост&nbsp;\n"
+#~ "кæнæ дæ аккаунт чи зоны адард цалдæр бон фæстæ."
+
+#, fuzzy
+#~ msgid ""
+#~ "Changed Mail successfully. We sent you a verification mail,             "
+#~ "please verify your new mail address."
+#~ msgstr ""
+#~ "Пост æнтыстджынæй раив. Мах арвит дæ пост бæлвырдгæнæнимæ,               "
+#~ "табуафси дæ ног адрис електронон посты сфидар."
+
+#~ msgid "Block all Private Messages"
+#~ msgstr "Алцы Гоймагон Фыстæджытæ Фæхъоды айс"
+
+#~ msgid "There are no mods"
+#~ msgstr "Мод æнæ ард"
+
+#~ msgid "Pixels placed"
+#~ msgstr "Æрбынтон пикселтæ"
+
+#, javascript-format
+#~ msgid ""
+#~ "Hold right ${ bindShift } for placing while moving mouse according to "
+#~ "historical view"
+#~ msgstr ""
+#~ "Уром рахиз джыбы ${bindShift} æрбынатæн бынатаивд мыст цур æмбæрдзинады "
+#~ "историкон афæлгæстимæ"
+
+#~ msgid "Didn't get an answer from pixelplanet. Maybe try to refresh?"
+#~ msgstr "Pixelplanet'мæ дзуаппы райс нæй? Чи зоны бафæлвар сног кæнын?"
+
+#~ msgid "Place more :)"
+#~ msgstr "Стылдæр равæрын :)"
+
+#~ msgid "No Proxies Allowed :("
+#~ msgstr "Прокситæ æнæ бар :("
+
+#~ msgid "User online"
+#~ msgstr "Пайдагæнæг онлайн"
+
+#~ msgid "your IP"
+#~ msgstr "дæ IP"
+
+#~ msgid "Partners:"
+#~ msgstr "Æмбалтæ:"
+
+#~ msgid "Welcome to PixelPlanet.fun"
+#~ msgstr "Табуафси PixelPlanet.fun'мæ"
+
+#~ msgid "Ranking"
+#~ msgstr "Рейтинг"
+
+#~ msgid "Register New Account"
+#~ msgstr "Ног Аккаунт Регистраци"
+
+#~ msgid "Restore my Password"
+#~ msgstr "Мæ парол сфидар кæн"
+
+#~ msgid "Daily"
+#~ msgstr "Алыбон"
+
+#~ msgid "Coordinates in X_Y format:"
+#~ msgstr "Форматы координаты X_Y:"
+
+#~ msgid "You successfully linked your mc account."
+#~ msgstr "Æнтыстджынæй дæ сбæттма дæ mc аккаунт."
+
+#~ msgid "You denied."
+#~ msgstr "Аиуварс дæ."
+
+#, javascript-format
+#~ msgid "You requested to link your mc account ${ minecraftname }."
+#~ msgstr "Ды бафарст бабæтт дæ mc аккаунт ${ minecraftname }."
+
+#~ msgid "Accept"
+#~ msgstr "Райсын"
+
+#~ msgctxt "keybinds"
+#~ msgid "C"
+#~ msgstr "C"

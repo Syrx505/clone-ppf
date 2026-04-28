@@ -1,0 +1,35 @@
+/*
+ * Menu Button on top left
+ */
+import React, { useContext } from 'react';
+
+import { MdExpandMore, MdExpandLess } from 'react-icons/md';
+import MenuContext from '../context/menu.js';
+
+const MenuButton = () => {
+  const { openMenuId, openMenu } = useContext(MenuContext);
+  const isOpen = openMenuId === 'mm';
+
+  return (
+    <div
+      id="menubutton"
+      className={`actionbuttons${isOpen ? ' pressed' : ''}`}
+      role="button"
+      tabIndex={0}
+      onClick={(evt) => {
+        if (!isOpen) {
+          const rect = evt.currentTarget.getBoundingClientRect();
+          const x = rect.left + window.scrollX;
+          const y = rect.bottom + window.scrollY + 3;
+          openMenu(
+            'MAIN', x, y, {}, 'tl', 'mm',
+          );
+        }
+      }}
+    >
+      {(isOpen) ? <MdExpandLess /> : <MdExpandMore /> }
+    </div>
+  );
+};
+
+export default MenuButton;

@@ -1,0 +1,2001 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: admin@pixelplanet.fun\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-01-12 16:40+0000\n"
+"Last-Translator: Extreme Motorsex <em@noreply.pixelplanet.fun>\n"
+"Language-Team: Esperanto <https://translate.gs-os.com/projects/ppfun/client/"
+"eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14\n"
+
+msgid " which is in "
+msgstr " kiu estas en "
+
+msgid "# Today"
+msgstr ""
+
+msgid "# Total"
+msgstr ""
+
+#, javascript-format
+msgid "${ mouseSymbol } Hold left mouse button and drag mouse to rotate"
+msgstr ""
+"${ mouseSymbol } Premu kaj fiksu la maldekstran musbutonon kaj trenu la "
+"muson rotacii"
+
+#, javascript-format
+msgid "${ mouseSymbol } Left click or ${ touchSymbol } tap to place a pixel"
+msgstr ""
+"${ mouseSymbol } Maldekstre klaku aŭ ${ touchSymbol } frapetu meti pikselon"
+
+#, javascript-format
+msgid "${ mouseSymbol } Right click and drag mouse to pan"
+msgstr "${ mouseSymbol } Dekstre klaku kaj trenu la muson rotacii la vizaĵ'"
+
+#, javascript-format
+msgid ""
+"${ mouseSymbol } Right click or ${ touchSymbol } double-tap to remove a pixel"
+msgstr ""
+"${ mouseSymbol } Dekstre klaku aŭ ${ touchSymbol } duoble frapeti por "
+"malmeti pikselon"
+
+#, javascript-format
+msgid ""
+"${ mouseSymbol } Scroll mouse wheel or hold ${ mouseSymbol } middle mouse "
+"button and drag to zoom"
+msgstr ""
+"${ mouseSymbol } Rulumu la musradon aŭ premfiksu ${ mouseSymbol } la mezan "
+"musbutonon kaj trenu zomi"
+
+msgid "(0 = infinite)"
+msgstr "(0 = senfina)"
+
+msgid "+last hour"
+msgstr "+lasta horo"
+
+msgid "...loading Login methods and sessions..."
+msgstr "...ŝarĝante ensalutajn metodojn kaj sesiojn..."
+
+msgid "A Phish!"
+msgstr "Fiŝo!"
+
+msgid "A new verification mail is getting sent to you."
+msgstr "Novan verigan retpostmensaĝon estas sendita."
+
+msgid "ACCESS MODTOOLS"
+msgstr "ALIRU MODERIGAJN ILOJN"
+
+msgid "Add Grid (uncheck if you need a 1:1 template)"
+msgstr "Aldonu Kradon (ne elektu se necesus 1:1 proporcion)"
+
+#, fuzzy
+msgid "Add Template"
+msgstr "Elŝultu Modelon"
+
+#. This if for moderation tools, it's not important to translate this
+msgid "Admintools"
+msgstr "Administriloj"
+
+msgid "All sound effects will be disabled."
+msgstr "Ĉiuj sonoj estos malŝaltitaj."
+
+msgid "Always show Movement Controls"
+msgstr "Ĉiam montri Movadajn Kontrolilojn"
+
+msgid "Always show movement control buttons"
+msgstr "Ĉiam montri butonojn por kontroli movojn"
+
+msgid "Anti Aliasing"
+msgstr "Glatigo"
+
+msgid "Apply a filter to clean trash in large canvas areas."
+msgstr "Apliku filtrilon por purigi rubon en grandaj kanvasaj areoj."
+
+msgid "Archive"
+msgstr "Arkiv'"
+
+msgid "Assign new Mod"
+msgstr "Faru novan moderigiston"
+
+msgid "Attach File"
+msgstr ""
+
+msgid "Auto Zoom In"
+msgstr "Aŭto Zomi"
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Back"
+msgstr "Reen"
+
+msgid "Badge Display"
+msgstr "Insigno-Ekspozicio"
+
+msgid "Badges"
+msgstr "Insignoj"
+
+msgid "Ban media"
+msgstr ""
+
+msgid "Banned"
+msgstr "Malpermesita"
+
+#, fuzzy
+msgid "Banned? Detected as Proxy?"
+msgstr "Detektita Kiel Prokuro?"
+
+msgid "Block"
+msgstr "Bloku"
+
+#, fuzzy
+msgid "Block DMs"
+msgstr "Bloku"
+
+msgid ""
+"Block all Private Messages. Enabling this will delete all your current DMs. "
+"You can still start new DMs with other users, but other users won't be able "
+"to start DMs with you."
+msgstr ""
+"Bloki ĉiujn privatajn mesaĝojn. Ebligi ĉi tion forigos ĉiujn viajn nunajn "
+"privatajn mesaĝojn. Vi ankoraŭ povas komenci novajn privatajn mesaĝojn kun "
+"aliaj uzantoj, sed aliaj uzantoj ne povos komenci privatajn mesaĝojn kun vi."
+
+msgid "Blocked"
+msgstr "Blokita"
+
+msgid "Bottom-right corner"
+msgstr "Malsupra dekstra angulo"
+
+msgid "Build image and set it to protected."
+msgstr "Konstruu bildon kaj protektu ĝin."
+
+msgid "Build image on canvas."
+msgstr "Konstruu bildon je l' kanvas'."
+
+msgid "Build image, but reset cooldown to unset-pixel cd."
+msgstr "Konstruu bildon, sed, nuligu je l' malvarmig'."
+
+msgid "By Mod"
+msgstr "De Mod"
+
+msgid "Calculate like GIMP"
+msgstr "Kalkulu kiel GIMP"
+
+msgid "Can not export more than 20 or no template!"
+msgstr "Ne eblas eksporti pli ol 20 aŭ neniun ŝablonon!"
+
+msgid "Can not import more than 20 or no template!"
+msgstr "Ne eblas importi pli ol 20 aŭ neniun ŝablonon!"
+
+msgid "Can't read? Reload:"
+msgstr "Ĉu vi ne povas legi? Reŝargi:"
+
+msgid "Can't render 3D canvas, do you have WebGL2 disabled?"
+msgstr "Ne eblas bildigi 3D-kanvason, ĉu WebGL2 estas malŝaltita?"
+
+msgid "Cancel"
+msgstr "Nuligu"
+
+#, fuzzy
+msgid "Cancel adding Template"
+msgstr "Elŝultu Modelon"
+
+#, fuzzy
+msgid "Canvas"
+msgstr "Elektu Kanvason"
+
+msgid "Canvas Archive"
+msgstr "Kanvasarkivo"
+
+#, fuzzy
+msgid "Canvas Cleaner"
+msgstr "Kanvasselekaĵ'"
+
+#, fuzzy
+msgid "Canvas Error"
+msgstr "Kanvasarkivo"
+
+msgid "Canvas Selection"
+msgstr "Kanvasselekaĵ'"
+
+msgid "Captcha"
+msgstr ""
+
+msgid "Caught by"
+msgstr "Kaptita de"
+
+#, fuzzy
+msgid "Change Happened"
+msgstr "Ŝanĝu Uzantnomon"
+
+msgid "Change Name"
+msgstr "Ŝanĝi Nomon"
+
+msgid "Change Password"
+msgstr "Ŝanĝu Pasvorton"
+
+msgid "Change your Mail Adress here:"
+msgstr "Ŝanĝu vian retpoŝtadreson ĉi tie:"
+
+msgid "Channel"
+msgstr ""
+
+msgid "Channel settings"
+msgstr "Kanal' agordoj"
+
+msgid "Charts"
+msgstr "Furorlisto"
+
+msgid "Chat"
+msgstr "Babilu"
+
+msgid "Chat here"
+msgstr "Babilu jen"
+
+msgid "Check out past versions of the canvas."
+msgstr "Vidu estintecajn versiojn de l' kanvas'."
+
+msgid "Check to allow"
+msgstr "Marku por permesi"
+
+msgid "Check who placed in an area"
+msgstr "Kontrolu kiu lokis en areo"
+
+msgid "Choose Canvas"
+msgstr "Elektu Kanvason"
+
+msgid "Choose Color Mode"
+msgstr "Elektu Koloran Modon"
+
+msgid "Choose Strategy"
+msgstr "Elektu Strategion"
+
+msgid "Choose Username"
+msgstr "Elektu uzantnomon"
+
+msgid ""
+"Clean spare pixels that are surrounded by a single other color or unset "
+"pixels (VERY AGGRESSIVE ON CANVASES THAT ALLOW UNSET PIXELS (where there are "
+"two cooldowns)!)"
+msgstr ""
+"Purigu rezervajn pikselojn ĉirkaŭitajn de ununura alia koloro aŭ ne-"
+"agorditaj pikseloj (TRE AGRESIVA SUR KANASOJ, KIUJ PERMESAS NEGADORDITITAJN "
+"PIKSELOJN (kie estas du malvarmiĝtempoj)!)"
+
+msgid "Clean spare pixels that are surrounded by unset pixels"
+msgstr "Purigu rezervajn pikselojn ĉirkaŭitajn de neagorditaj pikseloj"
+
+msgid ""
+"Clean spare pixels that are surrounded by unset pixels and up to 1 other set "
+"pixels"
+msgstr ""
+"Purigu rezervajn pikselojn ĉirkaŭitajn de neagorditaj pikseloj kaj ĝis 1 "
+"alia agorditaj pikseloj"
+
+msgid "Cleaners can use 0cd blank colors."
+msgstr "Purigistoj povas uzi 0cd blankajn kolorojn."
+
+msgid "Clear"
+msgstr ""
+
+#, javascript-format
+msgid ""
+"Click ${ mouseSymbol } middle mouse button or ${ touchSymbol } long-tap to "
+"select current hovering color"
+msgstr ""
+"Klaku ${ mouseSymbol } la mezan musbutonon aŭ ${ touchSymbol } frapetu longe "
+"selekti la aktualan ŝvebintan koloron"
+
+msgid "Click a color in palette to select it"
+msgstr "Klaku kolorulon en l' koloraron selekti ĝin"
+
+msgid "Click here to request a new verification mail."
+msgstr "Klaku jen peti novan verigan retpostmensaĝon."
+
+msgid "Click to Load Captcha"
+msgstr "Alklaku por Ŝargi Captcha-on"
+
+msgid "Click to remove"
+msgstr ""
+
+msgid "Clone"
+msgstr "Klono"
+
+msgid "Close"
+msgstr "Fermu"
+
+msgid "Close Chat"
+msgstr "Fermu je l' babil'"
+
+msgid "Close Palette"
+msgstr "Fermi je L' Kolorar'"
+
+msgid "Compact Chat"
+msgstr ""
+
+msgid "Compact Palette"
+msgstr "Kompakta Kolorar'"
+
+msgid "Confirm New Password"
+msgstr "Verigu Novan Pasvorton"
+
+msgid "Confirm Password"
+msgstr "Konfirmu Pasvort'"
+
+#, javascript-format
+msgid "Connection error ${ code } :("
+msgstr "Konekta eraro ${ code } :("
+
+msgid "Consent"
+msgstr "Konsento"
+
+msgid "Consider joining us on Matrix:"
+msgstr "Konsideru aliĝi al ni ĉe Matrix:"
+
+msgid "Controls"
+msgstr "Kontroloj"
+
+msgid "Convert an image to canvas colors"
+msgstr "Konvertu bildon al kanvasaj koloroj"
+
+msgid "Converter"
+msgstr "Konvertil'"
+
+msgid "Cooldown"
+msgstr "Malvarmiĝ'"
+
+msgid ""
+"Cooldown is usually automatically changed for a country that is dominating. "
+"In example in the case of a streamer raid."
+msgstr ""
+"La malvarmiga tempo kutime aŭtomate ŝanĝiĝas por lando, kiu dominas. "
+"Ekzemple, en la kazo de atako de retsendanto."
+
+#, fuzzy
+msgid "Coordinates"
+msgstr "Koordinatoj Nevalidaj"
+
+#, fuzzy
+msgid "Coordinates:"
+msgstr "Koordinatoj Nevalidaj"
+
+msgid "Copied"
+msgstr "Kopiita"
+
+msgid "Copy"
+msgstr "Kopii"
+
+msgid "Copy Link"
+msgstr "Kopii Ligilon"
+
+msgid "Copy Selected to Clipboard"
+msgstr "Kopii selektitajn al la tondejo"
+
+msgid "Copy URL"
+msgstr "Kopii URL-on"
+
+msgid "Copy UserId to Clipboard"
+msgstr "Kopii Uzanto-ID-on al Poŝbreto"
+
+msgid "Copy to Clipboard"
+msgstr "Kopiu je l' poŝ'"
+
+msgid "Could not connect to server"
+msgstr ""
+
+msgid "Could not connect to server, please try again later :("
+msgstr "Malligita al servilo, tentu poste ŭwŭ"
+
+msgid "Could not load captcha"
+msgstr "Ne eblis ŝargi la captcha-on"
+
+msgid "Could not process files"
+msgstr ""
+
+msgid "Couldn't set Pixel"
+msgstr "Ne povis meti pikselon"
+
+msgid "Countries Today"
+msgstr "Landoj Hodiaŭ"
+
+msgid "Country"
+msgstr "Lando"
+
+#, fuzzy, javascript-format
+msgid "Credit for the Palette of the 2bit canvas goes to ${ donendoLink }."
+msgstr "Kredito por l' Kolorar' de l' lun'  ĉeestas kun ${ donendoLink }"
+
+#, javascript-format
+msgid "Credit for the Palette of the Moon goes to ${ starhouseLink }."
+msgstr "Kredito por l' Kolorar' de l' lun' ĉeestas kun ${ starhouseLink }"
+
+#, fuzzy, javascript-format
+msgid "Credit for the Palette of the Top10 canvas goes to ${ vinikLink }."
+msgstr "Kredito por l' Kolorar' de l' lun'  ĉeestas kun ${ vinikLink }"
+
+msgid "Current Cooldown Changes per Country"
+msgstr "Aktualaj Ŝanĝoj de Malvarmigtempo laŭ Lando"
+
+msgid "Custom Cursor"
+msgstr "Propra kursoro"
+
+msgid "Custom Flag"
+msgstr ""
+
+msgid "DM"
+msgstr "Mesaĝi Rekte"
+
+#, fuzzy
+msgid "Daily Pixels per Country"
+msgstr "Metitaj Pikseloj"
+
+#, fuzzy
+msgid "Daily Pixels per Player"
+msgstr "Pikseloj metitaj"
+
+msgid "Daily Rank"
+msgstr "Hodiaŭa Rang'"
+
+msgid "Date of Award"
+msgstr "Dato de Premio"
+
+msgid "Date of catch"
+msgstr "Dato de kapto"
+
+#, fuzzy
+msgid "Delete"
+msgstr "Nuligu Konton"
+
+msgid "Delete Account"
+msgstr "Nuligu Konton"
+
+msgid "Deny"
+msgstr "Malkonsentu"
+
+#, fuzzy
+msgid ""
+"Didn't get an answer from pixelplanet. Try to refresh if this problem "
+"persists."
+msgstr "Resposton pixelplaneta ne estas. Provus refreŝigi?"
+
+msgid "Dimensions"
+msgstr "Dimensioj"
+
+msgid "Disable Game Sounds"
+msgstr "Malŝalti je Ludsonar'"
+
+msgid "Disable History Pencil"
+msgstr "Malŝalti Historion Krajono"
+
+msgid "Disable Overlay Pencil"
+msgstr "Malŝalti Kovrilan Krajonon"
+
+#, fuzzy
+msgid "Disable Pencil"
+msgstr "Malŝalti je Ludsonar'"
+
+msgid "Display Palette in a compact form that takes less screen space."
+msgstr "Montru Kolorar' je kompakta form' kiu ekranuzas malpli."
+
+msgid "Do stuff with IPs (one IP per line)"
+msgstr "Faru iom kun IPs (un IP po linion)"
+
+msgid "Don't remember"
+msgstr "Ne memoras"
+
+msgid "Don't show me in global stats"
+msgstr "Ne montri min en tutmondaj statistikoj"
+
+msgid "Download"
+msgstr ""
+
+msgid "Download Template"
+msgstr "Elŝultu Modelon"
+
+#, javascript-format
+msgid "Drag ${ mouseSymbol } mouse or ${ touchSymbol } pan to move"
+msgstr "Trenu ${ mouseSymbol } muson aŭ ${ touchSymbol } glitu por moviĝi"
+
+msgid "Duration"
+msgstr "Daŭro"
+
+msgid "Easter Egg OFF"
+msgstr "Paska Ovo MALŜALTITA"
+
+msgid "Easter Egg ON"
+msgstr "Paska ovo ŜALTITA"
+
+msgid "Edit"
+msgstr "Redakti"
+
+msgid "Email"
+msgstr "Retpostadres'"
+
+msgid "Email can't be empty."
+msgstr "Retpostmensaĝuj' ne povas esti malplena."
+
+msgid "Email can't be longer than 40 characters."
+msgstr "Retpostmensaĝ' ne povas esti >40 karakterojn."
+
+msgid ""
+"Email is used to verify your account. You might get a cofirmation mail after "
+"registering."
+msgstr ""
+"Retpoŝto estas uzata por kontroli vian konton. Vi eble ricevos konfirman "
+"retpoŝton post registriĝo."
+
+msgid "Email should at least contain a dot"
+msgstr "Retpostmensaĝ' devus almenaŭ enhavi pukton"
+
+msgid "Email should be at least 5 characters long."
+msgstr "Retpostmensaĝ' devus esti almenaŭ 5 karakterojn."
+
+msgid "Email should contain a @"
+msgstr "Retpostmensaĝ' devus enhavi @"
+
+msgid "Enable Overlay"
+msgstr "Ebligi Supermetaĵon"
+
+msgid "Enable Pencil"
+msgstr "Ebligi Krajonon"
+
+msgid "Enable chat notifications"
+msgstr "Ŝaltiti je babila avizar'"
+
+msgid "Enter Characters"
+msgstr "Enigu Karakterojn"
+
+msgid "Enter Reason"
+msgstr "Enigu Kialon"
+
+msgid "Enter UserName of new Mod"
+msgstr "Entajpu UzantNomon de la nova Moderigist'"
+
+msgid "Enter your mail address and we will send you a new password:"
+msgstr "Enskribi vian retmesaĝadreson kaj ni sendos vi novan pasvorton:"
+
+msgid "Error"
+msgstr "Erar'"
+
+#, javascript-format
+msgid "Error ${ retCode }"
+msgstr "Eraro ${ retCode }"
+
+msgid "Error :("
+msgstr "Erar'"
+
+msgid "Expand"
+msgstr "Malfermi"
+
+msgid "Export enabled templates"
+msgstr "Eksporti ebligitajn ŝablonojn"
+
+msgid "Factions"
+msgstr ""
+
+msgid "Factor"
+msgstr "Faktoro"
+
+msgid "File"
+msgstr "Dosiero"
+
+msgid "Fish Display"
+msgstr "Fiŝa Ekspozicio"
+
+msgid "For"
+msgstr "Por"
+
+msgid "For Developers"
+msgstr "Por Programistoj"
+
+#, javascript-format
+msgid ""
+"For any legal issues, please contact ${ mailLink }. If you want to delete "
+"your data, simply delete your account, this in fact wipes all privacy "
+"relevant traces. Your placed pixels will of course not be deleted."
+msgstr ""
+"Por iuj ajn juraj problemoj, bonvolu kontakti ${ mailLink }. Se vi volas "
+"forigi viajn datumojn, simple forigu vian konton, tio fakte forviŝas ĉiujn "
+"spurojn rilatajn al privateco. Viaj metitaj pikseloj kompreneble ne estos."
+
+msgid "For one day"
+msgstr "Por unu tago"
+
+msgid "For one month"
+msgstr "Dum unu monato"
+
+msgid "For one week"
+msgstr "Dum unu semajno"
+
+msgid "For one year"
+msgstr "Dum unu jaro"
+
+msgid "For when you are playing on a potato."
+msgstr "Kiam vi ludas je aĉa avina legoma computil'."
+
+msgid "Forever"
+msgstr "Eterne"
+
+msgid "From History"
+msgstr "El Historio"
+
+#, fuzzy
+msgid "From Template"
+msgstr "Elŝultu Modelon"
+
+msgid "Get IID"
+msgstr "Akiri IID-on"
+
+#, fuzzy
+msgid "Get Pixels"
+msgstr "Metitaj Pikseloj"
+
+msgid "Get Users"
+msgstr "Akiri Uzantojn"
+
+msgid "Get email address"
+msgstr "Akiri retpoŝtadreson"
+
+msgid "Get the amount of Pixels placed and ranking"
+msgstr "Akiru la kvanton da pikseloj metitaj kaj rangon"
+
+msgid "Globe View"
+msgstr "Globa Vidaĵ'"
+
+msgid "Go to"
+msgstr "Iri al"
+
+msgid "Grant"
+msgstr "Doni"
+
+msgid "Grid OFF"
+msgstr "Krado MALŜALTITA"
+
+msgid "Grid ON"
+msgstr "Krado ŜALTITA"
+
+msgid "Groups"
+msgstr ""
+
+msgid "Have fun!"
+msgstr "Ne havu amuzaĝon, strangulo!"
+
+msgid "Height"
+msgstr "Alteco"
+
+msgid "Help"
+msgstr "Help'"
+
+#, fuzzy
+msgid ""
+"Here we collect removed canvases to archive them properly. Which is "
+"currently only one."
+msgstr ""
+"Ĉi tie ni kolektas tiun kanvasojn arkivi ilin je konvena manier' (kiu estas "
+"unuope, momente)."
+
+msgid "Hide Embed"
+msgstr "Kaŝi Enkorpigi"
+
+msgid ""
+"Higher zoomlevels take some time to update, the 3D globe gets updated at "
+"least once per day."
+msgstr ""
+"Plialtaj zomniveloj tempdaŭras ĝisdatigi, la 3D globo almenaŭ unutage "
+"aktualigas."
+
+msgid "Historical View"
+msgstr "Historia Vidaĵ'"
+
+#, fuzzy, javascript-format
+msgid "Hold left ${ bindShift } for pencil (to place while moving mouse)"
+msgstr "Premu kaj fiksu maldekstran ${ bindShift } por meti dum muŝmovado"
+
+msgid "How pixelplanet should look like."
+msgstr "Kiel pixelplanet devus verŝajni."
+
+msgid "I forgot my Password."
+msgstr "Forgesis mi pasvorton mian."
+
+msgid "IID (optional)"
+msgstr "IID (nedeviga)"
+
+#, fuzzy
+msgid "IID Actions"
+msgstr "IP Aktoj"
+
+msgid "IP Actions"
+msgstr "IP Aktoj"
+
+msgid "Identifiers"
+msgstr "Identigiloj"
+
+#, javascript-format
+msgid ""
+"If you got detected as proxy, but you aren't using one, or think that you "
+"got wrongfully banned, please go to our ${ guildedLink } or send us an e-"
+"mail to ${ mailLink } and, in case of a ban, include the BID you got in the "
+"ban message."
+msgstr ""
+"Se vi estis detektita kiel prokurilo, sed vi ne uzas tian, aŭ pensas, ke vi "
+"estis maljuste malpermesita, bonvolu iri al nia ${ guildedLink } aŭ sendi al "
+"ni retpoŝton al ${ mailLink } kaj, kaze de malpermesita forigo, inkluzivi la "
+"BID-on, kiun vi ricevis en la malpermesmesaĝo."
+
+msgid ""
+"If you talk to moderators or administrators, you might get asked for one of "
+"the following identifiers:"
+msgstr ""
+"Se vi parolos kun moderigantoj aŭ administrantoj, oni eble petos vin pri unu "
+"el la jenaj identigiloj:"
+
+msgid "Image Converter"
+msgstr "Bildkonvertil'"
+
+msgid "Image Upload"
+msgstr "Je Bild' Alŝutu"
+
+msgid "Import templates"
+msgstr "Importi ŝablonojn"
+
+msgid "Interval"
+msgstr "Intervalo"
+
+#, fuzzy
+msgid "Interval is invalid"
+msgstr "Nevalida Kanvas'"
+
+msgid "Invalid Canvas"
+msgstr "Nevalida Kanvas'"
+
+msgid "Invalid Coordinates"
+msgstr "Koordinatoj Nevalidaj"
+
+msgid "Invalid color selected"
+msgstr "Koloro nevalida selektit"
+
+msgid "Invited to Chat"
+msgstr "Invitita al babilado"
+
+msgid ""
+"It requests the following permissions. Uncheck what you don't want to grant:"
+msgstr "Ĝi petas la jenajn permesojn. Malmarku tion, kion vi ne volas doni:"
+
+msgid "Jannies can rollback and protect, but not watch or ban."
+msgstr "Jannioj povas malfari kaj protekti, sed ne observi aŭ malpermesi."
+
+msgid "Just for registered Users"
+msgstr "Nur pri registritaj uzantoj"
+
+msgid "Just for verified Users"
+msgstr "Nur por konfirmitaj uzantoj"
+
+msgid "Just the Top10 of yesterday can place here"
+msgstr "Nur la Supraj 10 de hieraŭ povas esti ĉi tie"
+
+msgid "Keep Ratio"
+msgstr "Konservu Porporcion"
+
+msgid "Know that an account exists"
+msgstr "Sciu, ke konto ekzistas"
+
+msgid "Legal Requests"
+msgstr "Laŭleĝaj Petoj"
+
+msgid "Light Grid"
+msgstr "Hela Krad'"
+
+msgid "Load Captcha"
+msgstr "Ŝargi Captcha-on"
+
+#, fuzzy
+msgid "Loading"
+msgstr "Ŝarĝadanta..."
+
+msgid "Loading..."
+msgstr "Ŝarĝadanta..."
+
+msgid "Log out"
+msgstr "Elsalutu"
+
+msgid "Log out a Session:"
+msgstr "Elsaluti sesion:"
+
+msgid "LogIn"
+msgstr "EnSalUtu"
+
+msgid "Login Methods"
+msgstr "Ensalutaj Metodoj"
+
+msgid "Login to access more features and stats."
+msgstr "Ensalutu aliri pli eblojn kaj statistikaĵojn."
+
+msgid "Login to grant access to other application."
+msgstr "Ensalutu por doni aliron al alia aplikaĵo."
+
+msgid "Login to other application"
+msgstr "Ensaluti al alia aplikaĵo"
+
+msgid "Login with Name or Mail:"
+msgstr "Ensalutu kun Nomon aŭ Retpostadreson:"
+
+msgid "Make Screenshot"
+msgstr "Faru Ekrankopio"
+
+msgid "Manage Moderators"
+msgstr "Mastrumu Moderigistojn"
+
+msgid "Manage Templates"
+msgstr ""
+
+msgid "Map Data"
+msgstr "Mapa Datumo"
+
+#, fuzzy
+msgid "Maximize"
+msgstr "maksimumigu"
+
+msgid "Media Actions"
+msgstr ""
+
+msgid "Minimum Color Distance"
+msgstr "Minimuma Kolordistanco"
+
+msgid "Moderators can access all Canvas, Watch and IID tools."
+msgstr "Moderigantoj povas aliri ĉiujn ilojn de Canvas, Watch kaj IID."
+
+#. This if for moderation tools, it's not important to translate this
+msgid "Modtools"
+msgstr "Moderigiloj"
+
+msgid "Move"
+msgstr "Movi"
+
+msgid "Mute Channel"
+msgstr ""
+
+msgid "Muted Sound"
+msgstr "Silentigita Sono"
+
+msgid "Name"
+msgstr "Nom'"
+
+msgid "Name can't be empty."
+msgstr "Nom' ne povas esti malplena."
+
+msgid "Name contains invalid character like @, /, \\ or #"
+msgstr "Nom' enhavas nevalidan karakterojn kiel @, /, \\, aŭ #"
+
+#, fuzzy
+msgid "Name must be at least 2 characters long"
+msgstr "Nom' devus enhavi almenaŭ 4 karakterojn"
+
+msgid "Name must be shorter than 26 characters"
+msgstr "Nom' devus esti pli mallonga ol 26 karakterojn"
+
+msgid "Name or Email"
+msgstr "Nom' aŭ Retpostadres'"
+
+msgid "New Mail"
+msgstr "Nova Retpostmensaĝ'"
+
+msgid "New Name"
+msgstr "Nova Nomo"
+
+msgid "New Password"
+msgstr "Nova Pasvort'"
+
+msgid "New Username"
+msgstr "Nova Uzantnom'"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "No File selected to upload"
+msgstr ""
+
+msgid "No Phish!"
+msgstr "Neniu Fiŝo!"
+
+#, fuzzy
+msgid "No captcha id given"
+msgstr "Pasvorton ne donita."
+
+msgid "No flag selected"
+msgstr ""
+
+msgid "No or invalid captcha text"
+msgstr "Neniu aŭ malvalida captcha-teksto"
+
+msgid "No password given."
+msgstr "Pasvorton ne donita."
+
+msgid "Not Allowed"
+msgstr ""
+
+msgid "Not allowed"
+msgstr "Ne permesita"
+
+msgid "Note"
+msgstr ""
+
+msgid "OIDC LogIn"
+msgstr "OIDC-Ensaluto"
+
+msgid "OK"
+msgstr "Okej"
+
+msgid "Offset"
+msgstr "Kompens'"
+
+msgid "Oh no, the phish escaped. Better luck next time!"
+msgstr "Ho ne, la fiŝo eskapis. Pli da bonŝanco la venontan fojon!"
+
+msgid "Old Password"
+msgstr "Malnova Pasvort'"
+
+#, fuzzy
+msgid "Online Users"
+msgstr "Malblokigu Uzantojn"
+
+msgid "Online Users on Canvas"
+msgstr "Interretaj uzantoj sur Kanvaso"
+
+msgid "Only verified Users are currently allowed to play."
+msgstr "Nur konfirmitaj uzantoj nuntempe rajtas ludi."
+
+msgid "Opacity of Overlay in percent."
+msgstr "Opakeco de la tegaĵo en procento."
+
+msgid "Open Chat"
+msgstr "Malfermu je l' babil'"
+
+msgid "Open Palette"
+msgstr "Malfermi je L' Kolorar'"
+
+msgid "Open in PopUp"
+msgstr "Malfermi en ŝprucfenestro"
+
+msgid "OpenID Connect Client registration"
+msgstr "OpenID Connect Klienta registrado"
+
+msgid ""
+"Our main canvas is a huge worldmap, you can place wherever you like, but you "
+"will have to wait a specific Cooldown between pixels. You can check out the "
+"cooldown and requirements on the Canvas Selection menu (globe button on "
+"top). Some canvases have a different cooldown for replacing a user-set "
+"pixels than placing on a unset pixel. i.e. 4s/7s means 4s on fresh pixels "
+"and 7s on already set pixels."
+msgstr ""
+"Nia ĉefa kanvaso estas granda mondmapo, kiu oni povas meti ĉiun tiun "
+"deziras, sed devus atendi specifan malvarmiĝon inter pikseloj. Vi povus vidi "
+"la malvarmiĝajn postulojn je l' Kanvas' Skelekt' menu' (glob' super). Kelkaj "
+"Kanvasoj havas diferencajn malvarmiĝojn por meti uzantmetitan pikselojn ol "
+"meti je malmetitan pikselon. t.e 4s/7s signifas 4s je freŝaj pikseloj kaj 7s "
+"je jam metitaj pikseloj."
+
+msgid "Overlay OFF"
+msgstr "Supermetaĵo MALŜALTITA"
+
+msgid "Overlay ON"
+msgstr "Supermetaĵo ŜALTITA"
+
+msgid "Overlay Opacity"
+msgstr "Supermeti Opakeco"
+
+msgid "Palette Download"
+msgstr "Elŝulti Kolorare"
+
+#, javascript-format
+msgid "Palette for ${ gimpLink }"
+msgstr "Kolorar' por ${ gimpLink }"
+
+msgid "Password"
+msgstr "Pasvort'"
+
+msgid "Password must be at least 6 characters long."
+msgstr "Pasvorton devus enhavi almenaŭ 6 karakterojn."
+
+msgid "Password must be shorter than 60 characters."
+msgstr "Pasvorton devus esti pli mallonga ol 60 karakterojn."
+
+#, fuzzy
+msgid "Password successfully changed."
+msgstr "Ŝanĝis Pasvorton malerare."
+
+msgid "Passwords do not match."
+msgstr "Pasvortoj ne parigas."
+
+#, javascript-format
+msgid "Pencil Mode for ${ canvasName } canvas"
+msgstr "Krajona Reĝimo por ${ canvasName } kanvaso"
+
+msgid "Pencil picks: "
+msgstr "Krajonaj elektoj: "
+
+msgid "Permission"
+msgstr "Permeso"
+
+msgid "Phish!"
+msgstr "Fiŝo!"
+
+msgid "Phishes"
+msgstr "Fiŝoj"
+
+msgid "Ping"
+msgstr "Eĥosondu"
+
+msgid "Pixel Notify OFF"
+msgstr "Piksela Sciigo MALŜALTITA"
+
+msgid "Pixel Notify ON"
+msgstr "Piksela Sciigo ŜALTITA"
+
+msgid "Pixel Protection"
+msgstr "Piksela Protektaĵ'"
+
+msgid "Pixel protected"
+msgstr "Piksel' protektita"
+
+msgid "Pixels"
+msgstr ""
+
+msgid "Pixels Today"
+msgstr ""
+
+msgid "Place color pixels on a large canvas with other players online!"
+msgstr ""
+"Metu kolorajn pikselojn en grandan kanvason kun alian ludantojn enrete!"
+
+msgid "Placed Pixels"
+msgstr "Metitaj Pikseloj"
+
+msgid "Play a sound when new chat messages arrive"
+msgstr "Meti sonon kiam novan babilan mensaĝon alvenas"
+
+msgid "Player"
+msgstr "Ludanto"
+
+#, fuzzy
+msgid "Players and Pixels per hour"
+msgstr "Metitaj Pikseloj"
+
+msgid "Please prove that you are human"
+msgstr "Bonvolu pruvi, ke vi estas homo"
+
+msgid "Please refresh the website"
+msgstr "Bonvolu refreŝigi la retejon"
+
+msgid ""
+"Please verify your mail address or add a new one, otherwise your account "
+"could get deleted in the future."
+msgstr ""
+"Bonvolu konfirmi vian retpoŝtadreson aŭ aldoni novan, alie via konto povus "
+"esti forigita estonte."
+
+msgid "Political Compass Canvas"
+msgstr "Politikompasa Kanvas'"
+
+msgid "Potato Mode"
+msgstr "Malmultekosta Computilaĉo Modo"
+
+#, javascript-format
+msgid ""
+"Press ${ bindAUp }, ${ bindALeft }, ${ bindADown }, ${ bindARight } to move"
+msgstr ""
+"Premu ${ bindAUp }, ${ bindALeft }, ${ bindADown }, ${ bindARight } moviĝi"
+
+#, javascript-format
+msgid "Press ${ bindG } to toggle grid"
+msgstr "Premu ${ bindG } baskuli kranon"
+
+#, javascript-format
+msgid "Press ${ bindH } to toggle historical view"
+msgstr "Premu ${ bindH } por arkiva vizaĵ'"
+
+#, fuzzy, javascript-format
+msgid "Press ${ bindQ } and ${ bindE } to fly up and down"
+msgstr "Premu ${ bindQ } kaj ${ bindE } flugi supren kaj malsupren"
+
+#, javascript-format
+msgid "Press ${ bindQ } or ${ bindE } to zoom"
+msgstr "Premu ${ bindQ } aŭ ${ bindE } por zomi"
+
+#, javascript-format
+msgid "Press ${ bindR } to copy coordinates"
+msgstr "Premu ${ bindR } por kopii koordinatoj"
+
+#, javascript-format
+msgid "Press ${ bindW }, ${ bindA }, ${ bindS }, ${ bindD } to move"
+msgstr "Premu ${ bindW }, ${ bindA }, ${ bindS }, ${ bindD } por movi"
+
+#, javascript-format
+msgid "Press ${ bindX } to toggle showing of pixel activity"
+msgstr "Premu ${ bindX } por vidi piksel' aktivec'"
+
+msgid "Private"
+msgstr "Privata"
+
+msgid "Profile"
+msgstr "Profil'"
+
+msgid "Public"
+msgstr ""
+
+msgid "Quick Actions"
+msgstr "Rapidaj Agoj"
+
+msgid "Range Banned"
+msgstr "Intervalo Malpermesita"
+
+msgid "Ranked"
+msgstr "Rangita"
+
+msgid "Ranking updates every 5 min. Daily rankings get reset at midnight UTC."
+msgstr "Rangigas ĉiu 5 minutoj. Hodiaŭa rangojn nuligas je meznokto UTC."
+
+msgid "Read Badges and fishes"
+msgstr "Legu insignojn kaj fiŝojn"
+
+msgid "Read name, username and account age"
+msgstr "Legu nomon, uzantnomon kaj aĝon de la konto"
+
+msgid "Reason"
+msgstr "Kialo"
+
+msgid "Refresh"
+msgstr "Refreŝigi"
+
+msgid "Register"
+msgstr "Registriĝi"
+
+msgid "Register new account here"
+msgstr "Registriĝi novan konton jen"
+
+msgid "Regularly update this data"
+msgstr "Regule ĝisdatigu ĉi tiujn datumojn"
+
+msgid "Reload"
+msgstr "Reŝargi"
+
+msgid "Remember this decision: "
+msgstr "Memoru ĉi tiun decidon: "
+
+msgid "Remove"
+msgstr "Forigi"
+
+msgid "Remove Chatmod"
+msgstr ""
+
+msgid "Remove Cleaner"
+msgstr "Forigu Purigilon"
+
+msgid "Remove Janny"
+msgstr "Forigu Janny"
+
+msgid "Remove Moderator"
+msgstr "Alĵetu je Moderigist'"
+
+msgid "Remove a Login method:"
+msgstr "Forigi ensalutan metodon:"
+
+msgid "Require Verification to Place"
+msgstr "Postuli Konfirmon por Loko"
+
+msgid "Requirements"
+msgstr "Postular'"
+
+msgid "Reset"
+msgstr "Renuligu"
+
+msgid "Reset Captchas of ALL Users"
+msgstr "Restarigi Captcha-ojn de ĈIUJ Uzantoj"
+
+msgid "Reset your password"
+msgstr "Restarigi vian pasvorton"
+
+msgid "Resize"
+msgstr "Regrandigi"
+
+msgid "Restore"
+msgstr "Restaŭri"
+
+msgid "Retired Canvases (history only)"
+msgstr "Emeritaj Kanvasoj (nur historio)"
+
+msgid "Retract"
+msgstr "Retiri"
+
+msgid "Revoke consent of third party applications:"
+msgstr "Revoki konsenton de triapartaj aplikoj:"
+
+msgid "Roll different Captcha Fonts"
+msgstr "Rulu malsamajn Captcha-tiparojn"
+
+#, fuzzy
+msgid "Rollback an area of the canvas to a set date and time"
+msgstr "Malmetu je areo kanvaso al dato (00:00 UTC)"
+
+msgid "Rollback to Date"
+msgstr "Malmetu je l' Dat'"
+
+msgid "Save"
+msgstr "Ŝparu"
+
+msgid "Scale Image"
+msgstr "Skalu Bildon"
+
+#, javascript-format
+msgid "Scroll ${ mouseSymbol } mouse wheel or ${ touchSymbol } pinch to zoom"
+msgstr "Rulumu ${ mouseSymbol } la musradon aŭ ${ touchSymbol } pinĉu zomi"
+
+#, fuzzy
+msgid "Select Date above"
+msgstr "Selektu Lingvon"
+
+#, fuzzy
+msgid "Select File"
+msgstr "Selektu Lingvon"
+
+msgid "Select Flag"
+msgstr ""
+
+msgid "Select Language"
+msgstr "Selektu Lingvon"
+
+#, fuzzy
+msgid ""
+"Select the canvas you want to use.\n"
+"Every canvas is unique and has different palettes, cooldown and "
+"requirements.\n"
+"Archived canvases can be accessed here:"
+msgstr ""
+"Selekti la kanvason kiu uzos. Ĉiu kanvas' estas  unika kaj havas malsamajn "
+"palestrojn, malvarmiĝon, kaj postulojn. Arkivon de fermitaj kanvasoj alirus "
+"jen:"
+
+msgid "Select your Avatar. Supported Formats: jpg, gif, png, webp"
+msgstr ""
+
+#, fuzzy
+msgid "Selected Color"
+msgstr "Selektu Lingvon"
+
+msgid "Selected Flag:"
+msgstr ""
+
+msgid "Send"
+msgstr "Sendi"
+
+msgid "Sent you a mail with instructions to reset your password."
+msgstr ""
+"Sendita estas retpostmensaĝo kun instrukcioj, kiel renovigi vian pasvorton."
+
+msgid "Serpentine"
+msgstr "Serpentumo"
+
+msgid "Server answered with gibberish :("
+msgstr "La servilo respondis sensencaĵe :("
+
+msgid ""
+"Server got confused by your pixels. Are you playing on multiple devices?"
+msgstr "Servilo konfuziĝis pro viaj pikseloj. Ĉu vi ludas sur pluraj aparatoj?"
+
+msgid "Set Password"
+msgstr "Agordi Pasvorton"
+
+#, fuzzy
+msgid ""
+"Set protection of areas (if you need finer grained control, use protect with "
+"image upload and alpha layers)"
+msgstr ""
+"Protektu areojn\t(se necesas pli fajna kontrolo,\tuzu protekton kun la bilda "
+"alŝultilon kaj alfa tavolon)"
+
+msgid ""
+"Setting a password allows you to login by username or email, rather than "
+"only relying on 3rd party login."
+msgstr ""
+"Agordi pasvorton permesas al vi ensaluti per uzantnomo aŭ retpoŝto, anstataŭ "
+"nur fidi je triaparta ensaluto."
+
+msgid "Settings"
+msgstr "Agordar'"
+
+msgid "Show Embedded"
+msgstr "Montri Enigitan"
+
+msgid "Show Grid"
+msgstr "Montri je Krad'"
+
+msgid "Show Grid in white instead of black."
+msgstr "Montru Krad' je blanka anstataŭ negra."
+
+msgid "Show Pixel Activity"
+msgstr "Montri je Piksela Aktivec'"
+
+msgid "Show circles where pixels are placed."
+msgstr "Montri cirklojn tie ke pikselojn estas metitajn."
+
+msgid "Show overlay as small individual pixels on high zoomlevels."
+msgstr ""
+"Montri la supermetaĵon kiel malgrandajn individuajn pikselojn ĉe altaj "
+"zomniveloj."
+
+msgid "Show templates as overlays ingame."
+msgstr "Montru ŝablonojn kiel paŭsaĵojn en la ludo."
+
+msgid "Shrink"
+msgstr ""
+
+msgid "Size"
+msgstr "Grandeco"
+
+msgid "Small Pixels When Zoomed"
+msgstr "Malgrandaj pikseloj kiam zomita"
+
+msgid "Social Settings"
+msgstr "Komunikaĵaj Agordoj"
+
+#, javascript-format
+msgid "Source for pixelplanet on ${ gitLink } or ${ downloadHereLink }."
+msgstr ""
+
+msgid "Stacking till"
+msgstr "Bufadinda ĝis"
+
+msgid "Start chatting here"
+msgstr "Komencu babili ĉi tie"
+
+msgid "Start checking for Malware"
+msgstr "Komencu kontroli por malica programaro"
+
+msgid "Statistics"
+msgstr "Statistikoj"
+
+msgid "Status: Not running"
+msgstr "Stato: Ne funkcias"
+
+msgid "Stay logged in: "
+msgstr "Restu ensalutinta: "
+
+msgid "Stop Cleaner"
+msgstr "Haltiga Purigilo"
+
+msgid "Stop checking for Malware"
+msgstr "Ĉesu kontroli por malicprogramoj"
+
+msgid "Stop requiring Verification to Place"
+msgstr "Ĉesu postuli konfirmon por loko"
+
+msgid "Submit"
+msgstr "Sendu"
+
+msgid "Switch Account"
+msgstr "Ŝanĝi Konton"
+
+#, javascript-format
+msgid "Switched to ${ canvasName }"
+msgstr "Ŝanĝis al ${ canvasName }"
+
+msgid "Template Name"
+msgstr "Ŝablona Nomo"
+
+#, fuzzy
+msgid "Templates"
+msgstr "Elŝultu Modelon"
+
+#, javascript-format
+msgid ""
+"The application ${ appName } at ${ appUrl } wants to login with your "
+"pixelplanet account ${ accountName }"
+msgstr ""
+"La aplikaĵo ${ appName } ĉe ${ appUrl } volas ensaluti per via pixelplanet-"
+"konto ${ accountName }"
+
+msgid ""
+"The bare map data that we use, together with converted OpenStreetMap tiles "
+"for orientation, can be downloaded from mega.nz here: "
+msgstr ""
+"La malplena mapa datumo ke ni uzas, kune kun konvertita OpenStreetMap "
+"kaheloj por se orienti, elŝutus je mega.nz jen: "
+
+msgid ""
+"The name of your account, only a-z, A-Z, -, ., and - characters are allowed. "
+"It is permanent, you can not change it later."
+msgstr ""
+"La nomo de via konto, nur la signoj a-z, A-Z, -, ., kaj - estas permesitaj. "
+"Ĝi estas permanenta, vi ne povas ŝanĝi ĝin poste."
+
+msgid "Themes"
+msgstr "Temar'"
+
+msgid "This URL is not supported by our Media Player"
+msgstr "Ĉi tiu URL ne estas subtenata de nia multmedia ludilo"
+
+msgid "This canvas doesn't exist"
+msgstr "Kanvason ne ekzistas"
+
+msgid ""
+"This canvas got requested during a time of political conflicts on the main "
+"Earth canvas. It was a 1024x1024 representation of the political compass "
+"with a 5s cooldown and 60s stacking. It got launched on May 11th and "
+"remained active for months till it got shut down on November 30th."
+msgstr ""
+"Ĉi tiu kanvas' estis petita dum temp' de politikajn konfliktojn je la "
+"mondkanvas'. Ĝi estis 1024x1024 reprezentadon de la politikompason kun 5s "
+"malvarmiĝon kaj 60s bufron. Ĝi estis lanĉita je 11-a de Maio kaj daŭris "
+"aktivece je monatoj ĝis ĝi estis mallanĉita je 11-a de Novembro."
+
+msgid ""
+"This is the name that other people see, e.g. in Chat. You can change it at "
+"any time. All characters except @, /, , >, < and # are allowed."
+msgstr ""
+"Jen la nomo, kiun aliaj homoj vidas, ekzemple en la babilejo. Vi povas ŝanĝi "
+"ĝin iam ajn. Ĉiuj signoj krom @, /, \\, >, < kaj # estas permesitaj."
+
+msgid "This login may only work if your account is verified."
+msgstr ""
+
+msgid "This permission is required"
+msgstr "Ĉi tiu permeso estas necesa"
+
+msgid "Timeout"
+msgstr "Paŭzo"
+
+msgid "Tip: Not case-sensitive; I and l are the same"
+msgstr ""
+"Konsilo: Ne distingas majusklojn kaj minusklojn; I kaj l estas la samaj"
+
+msgid ""
+"Tired of always spaming one single color? Want to create art instead, but "
+"you have to count pixels from some other image? Templates can help you with "
+"that! Templates can show as overlay and you can draw over them. One pixel on "
+"the template, should be one pixel on the canvas."
+msgstr ""
+"Ĉu vi laciĝis ĉiam uzi nur unu koloron? Ĉu vi volas krei arton anstataŭe, "
+"sed vi devas kalkuli pikselojn el iu alia bildo? Ŝablonoj povas helpi vin "
+"pri tio! Ŝablonoj povas montriĝi kiel supermetitaj elementoj kaj vi povas "
+"desegni super ili. Unu pikselo sur la ŝablono, devus esti unu pikselo sur la "
+"kanvaso."
+
+msgid "To use this page, enter your Password:"
+msgstr "Por uzi ĉi tiun paĝon, enigu vian pasvorton:"
+
+msgid "Today"
+msgstr "Hodiaŭ"
+
+msgid "Today Placed Pixels"
+msgstr "Hodiaŭa Metitaj Pikseloj"
+
+msgid "Top 10 Countries [pxls / day]"
+msgstr "Supraj 10 Landoj [pikseloj / tago]"
+
+#, fuzzy
+msgid "Top 10 Daily Ranking"
+msgstr "Hodiaŭa Rang'"
+
+msgid "Top 10 Players [pxls / day]"
+msgstr "Supraj 10 Ludantoj [pikseloj / tago]"
+
+msgid "Top 10 Players from Yesterday"
+msgstr "Supraj 10 Ludantoj de Hieraŭ"
+
+msgid "Top-left corner"
+msgstr "Supra-maldekstra angulo"
+
+msgid "Total"
+msgstr "La Tuto"
+
+msgid "Total Online Users"
+msgstr "Totalaj Interretaj Uzantoj"
+
+msgid "Total Pixels"
+msgstr ""
+
+#, fuzzy
+msgid "Total Pixels per Player"
+msgstr "Pikseloj metitaj"
+
+#, fuzzy
+msgid "Total Pixels placed per day"
+msgstr "Pikseloj metitaj"
+
+msgid "Total Rank"
+msgstr "Tuta Rang'"
+
+msgid ""
+"Turn every pixel in area to 0 (YOU REALLY SHOULDN'T DO THAT ON ANY AREA THAT "
+"ISN'T ALREADY MOSTLY 0)"
+msgstr ""
+"Ŝaltu ĉiun pikselon en la areo al 0 (VI VERE NE DEVUS FARI TION SUR AJN "
+"AREO, KIU NE JAM ESTAS PLEJPARTE 0)"
+
+msgid "Turn on grid to highlight pixel borders."
+msgstr "Ŝalti kradon emfazi pikselbarojn."
+
+msgid "Type of Mod"
+msgstr "Tipo de Mod"
+
+msgid "Type the characters from the following image:"
+msgstr "Tajpu la signojn el la sekva bildo:"
+
+msgid "Unban media"
+msgstr ""
+
+msgid "Unblock Users"
+msgstr "Malblokigu Uzantojn"
+
+msgid "Unknown Captcha Error"
+msgstr "Nekonata Captcha-eraro"
+
+msgid "Unknown Error"
+msgstr "Nekonata Eraro"
+
+msgid "Unmuted Sound"
+msgstr "Ne-Silentigita Sono"
+
+msgid "Until the browser closes"
+msgstr "Ĝis la retumilo fermiĝas"
+
+msgid "Upload images to canvas"
+msgstr "Alŝultu bildojn al kanvas'"
+
+msgid "Use our custom cursor"
+msgstr "Uzu nian kutiman kursoron"
+
+#, fuzzy
+msgid "User"
+msgstr "Uzantareo"
+
+msgid "User Account"
+msgstr "Uzantkont'"
+
+msgid "User Area"
+msgstr "Uzantareo"
+
+msgid "User ID and verification level"
+msgstr "Uzanto-identigilo kaj konfirmnivelo"
+
+msgid "User Name"
+msgstr "Uzantnom'"
+
+msgid "Username"
+msgstr "Uzantnomo"
+
+msgid "Username can only contain the characters: a-z . _ and -"
+msgstr "Uzantnomo povas enhavi nur la signojn: a-z . _ kaj -"
+
+msgid "Username can only contain the characters: a-z A-z . _ and -"
+msgstr ""
+
+msgid "Username can't be empty."
+msgstr "Uzantnomo ne povas esti malplena."
+
+msgid "Username must be at least 2 characters long"
+msgstr "Uzantnomo devas esti almenaŭ 2 signojn longa"
+
+msgid "Username must be shorter than 26 characters"
+msgstr "Uzantnomo devas esti pli mallonga ol 26 signoj"
+
+#, javascript-format
+msgid "We are Libre Software under the ${ agplLink }, "
+msgstr ""
+
+msgid ""
+"We decided to archive it as a timelapse with lossless encoded webm. Taking a "
+"screenshot from the timelapse results in a perfect 1:1 representation of how "
+"the canvas was at that time."
+msgstr ""
+"Ni decidis arkivi ĝi je rapidtempfilmet' kun senperda webm. Ekrankopi' de l' "
+"rapidtempfilmet' rezultas je perfektan 1:1 reprezentad' da kanvason je tiu "
+"temp'."
+
+msgid ""
+"We thank the following artists, who made their palettes available to the "
+"public on"
+msgstr ""
+
+msgid "Weird"
+msgstr "Bizara"
+
+msgid "What the pencil should draw on the current canvas."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"While we tend to not delete canvases, some canvases are started for fun or "
+"as a request by users who like a currently popular meme. Those canvases can "
+"become dull and inactive after a while, at which point there is no reason to "
+"keep them and we may decide to remove them."
+msgstr ""
+"Kvankam ni inklinus ne nuligi je kanvasar', kelkajn kanvasojn estas "
+"komencigitaj por amuzigi aŭ por pet' de uzantoj kiun momente ŝatas ion ajn "
+"memeon. Tiuj kanvasoj povus tedi kelkatempe kaj post semanoj de ne grandaj "
+"ŝanĝaĵoj, kaj se tiuj vere ne  estas aktiva, ni decidas nuligi tiujn."
+
+msgid "Why?"
+msgstr ""
+
+msgid "Width"
+msgstr "Larĝec'"
+
+msgid "Wrong Color"
+msgstr "Koloro erara"
+
+msgid "YOU CAN ONLY CHOOSE YOUR USERNAME ONCE!"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "Yes, Delete My Account!"
+msgstr "Jes, Nuligu Mian Konton!"
+
+msgid "Yesterday"
+msgstr ""
+
+msgid ""
+"You are a teacher and a pupil is playing this game, despite it not being "
+"suitable for them? Send us an email."
+msgstr ""
+
+#, javascript-format
+msgid ""
+"You are banned. You think it is unjustified? Check out the ${ helpButton } "
+"on how to appeal. And don't forget to include the BID you can get below."
+msgstr ""
+
+msgid "You are currently not allowed to access this game."
+msgstr ""
+
+msgid "You are not allowed to play this game right now :("
+msgstr ""
+
+msgid "You are using a Proxy."
+msgstr "Vi uzas prokuran servilon."
+
+msgid "You are weird"
+msgstr ""
+
+msgid ""
+"You can connect to pixelplanet and use pixelplanet accounts for oauth / oidc "
+"login. See here: "
+msgstr ""
+
+#, fuzzy
+msgid "You can not access this canvas yet, because your pixel score is too low"
+msgstr "Ne povas aliri je ĉi tiun kanvas' nun. Metu pli pikseloj"
+
+msgid "You can now place more on pixelplanet.fun :)"
+msgstr ""
+
+#, javascript-format
+msgid ""
+"You caught a Phish! It is a ${ FISH_TYPES[type].name } with ${ size }kg! As "
+"a bonus, your cooldown is reduced."
+msgstr ""
+
+msgid "You did not consent"
+msgstr ""
+
+msgid "You failed your captcha"
+msgstr "Vi malsukcesis vian captcha-on"
+
+msgid "You have no users blocked"
+msgstr "Ne havas vi uzantojn blokatajn"
+
+msgid "You have to be logged in to place on this canvas"
+msgstr "Vi necesas esti ensalutita por meti je l' kanvas'"
+
+msgid "You made too many requests"
+msgstr ""
+
+msgid "You must be logged in to chat"
+msgstr "Devas esti ensalutita por babili"
+
+msgid "You must enter a UserId"
+msgstr ""
+
+msgid "You must enter a duration"
+msgstr ""
+
+msgid "You must enter a mediaId or media BID"
+msgstr ""
+
+msgid "You must enter a reason"
+msgstr ""
+
+msgid "You must enter a username"
+msgstr ""
+
+msgid "You must enter an BID"
+msgstr ""
+
+msgid "You must enter an IID"
+msgstr ""
+
+msgid "You must enter an IID or UserId"
+msgstr ""
+
+msgid "You must enter at least one IID, User Id or BID"
+msgstr ""
+
+msgid "You took too long, try again."
+msgstr ""
+
+msgid ""
+"Your Browser doesn't allow us to use AudioContext to play sounds. Do you "
+"have some privacy feature blocking us?"
+msgstr ""
+
+msgid "Your Browser looks shady"
+msgstr "Via retumilo aspektas suspektinda"
+
+msgid "Your Internet Provider is banned from this game"
+msgstr ""
+
+msgid "Your ban expires at "
+msgstr ""
+
+msgid ""
+"Your did not set your username yet. A username is required to login to other "
+"applications. You can set it now:"
+msgstr ""
+
+msgid "Your name is:"
+msgstr ""
+
+msgid "Your next pixels are ready"
+msgstr ""
+
+msgid ""
+"Zoom in instead of placing a pixel when you tap the canvas and your zoom is "
+"small."
+msgstr ""
+"Zomu anstataŭe meti pikselon kiam vi frapetas l' kanvason kaj vian zomo etas."
+
+#, javascript-format
+msgid "and ${ canvas.req } Pixels set"
+msgstr "kaj ${ canvas.req } Pikselojn metitajn"
+
+msgid "check compliance here"
+msgstr ""
+
+msgid "download here"
+msgstr ""
+
+msgid "or login with:"
+msgstr "aŭ ensalutu je:"
+
+msgid "or register here:"
+msgstr "aŭ registriĝu jen:"
+
+msgid "recommended"
+msgstr "rekomendita"
+
+#, javascript-format
+msgid "try again after ${ ti }min"
+msgstr ""
+
+msgid "x out of bounds"
+msgstr "x forbara"
+
+msgid "y out of bounds"
+msgstr "y forbara"
+
+msgid "z out of bounds"
+msgstr "z forbara"
+
+msgctxt "keybinds"
+msgid "A"
+msgstr "A"
+
+msgctxt "keybinds"
+msgid "B"
+msgstr ""
+
+msgctxt "keybinds"
+msgid "D"
+msgstr "D"
+
+msgctxt "keybinds"
+msgid "E"
+msgstr "E"
+
+msgctxt "keybinds"
+msgid "G"
+msgstr "G"
+
+msgctxt "keybinds"
+msgid "H"
+msgstr "H"
+
+msgctxt "keybinds"
+msgid "M"
+msgstr "M"
+
+msgctxt "keybinds"
+msgid "N"
+msgstr ""
+
+msgctxt "keybinds"
+msgid "Q"
+msgstr "Q"
+
+msgctxt "keybinds"
+msgid "R"
+msgstr "R"
+
+msgctxt "keybinds"
+msgid "S"
+msgstr "S"
+
+msgctxt "keybinds"
+msgid "Shift"
+msgstr "Shift"
+
+msgctxt "keybinds"
+msgid "T"
+msgstr ""
+
+msgctxt "keybinds"
+msgid "W"
+msgstr "W"
+
+msgctxt "keybinds"
+msgid "X"
+msgstr "X"
+
+#~ msgid "Close Menu"
+#~ msgstr "Fermu je l' menu'"
+
+#~ msgid "Open Menu"
+#~ msgstr "Malfermu je l' menu'"
+
+#~ msgid "Mute"
+#~ msgstr "Silentu"
+
+#~ msgid "Source for pixelplanet on "
+#~ msgstr "Fonto por pixelplanet ĉe "
+
+#, fuzzy
+#~ msgid "Registration"
+#~ msgstr "Registriĝi"
+
+#, fuzzy
+#~ msgid "Forgot Password"
+#~ msgstr "Forgesis mi pasvorton mian."
+
+#~ msgid "Source on "
+#~ msgstr "Fontu je "
+
+#~ msgid "Consider joining us on Guilded:"
+#~ msgstr "Konsideru kunigi kun ni je Guilded:"
+
+#, javascript-format
+#~ msgid "Your name is: ${ name }"
+#~ msgstr "Via nomo estas: ${ name }"
+
+#~ msgid "Change Username"
+#~ msgstr "Ŝanĝu Uzantnomon"
+
+#~ msgid "Change Mail"
+#~ msgstr "Ŝanĝu Retpostadreson"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please verify your mail address or your account could get deleted after a "
+#~ "few days."
+#~ msgstr ""
+#~ "Bonvolu verifiki vian retpostadreson\n"
+#~ "aŭ via konto povus esti nuligita post kelkaj tagoj."
+
+#, fuzzy
+#~ msgid ""
+#~ "Changed Mail successfully. We sent you a verification mail,             "
+#~ "please verify your new mail address."
+#~ msgstr ""
+#~ "Ŝanĝis Retpostadreson malerare. Ni sendis vin verigaĵa mensaĝon,\tbonvolu "
+#~ "verigi vian novan retpostadreson."
+
+#~ msgid "Block all Private Messages"
+#~ msgstr "Bloku ĉiuj privatan mensaĝaĉon"
+
+#~ msgid "There are no mods"
+#~ msgstr "Ne estas moderigistoj"
+
+#~ msgid "Pixels placed"
+#~ msgstr "Pikseloj metitaj"
+
+#, javascript-format
+#~ msgid ""
+#~ "Hold right ${ bindShift } for placing while moving mouse according to "
+#~ "historical view"
+#~ msgstr ""
+#~ "Premu kaj fiksu dekstran ${ bindShift } por meti dum muŝmovado, sekvante "
+#~ "historia vizaĵo"
+
+#~ msgid "Didn't get an answer from pixelplanet. Maybe try to refresh?"
+#~ msgstr "Resposton pixelplaneta ne estas. Provus refreŝigi?"
+
+#~ msgid "Place more :)"
+#~ msgstr "Metu pli ŭwŭ"
+
+#~ msgid "No Proxies Allowed :("
+#~ msgstr "Prokurajn servilojn ne permesitajn ŭwŭ"
+
+#~ msgid "User online"
+#~ msgstr "Uzanto enreta"
+
+#~ msgid "Restore my Password"
+#~ msgstr "Renovigi Mian Pasvorton"
+
+#~ msgid "Register New Account"
+#~ msgstr "Registriĝi Nova Konto+"
+
+#~ msgid "Ranking"
+#~ msgstr "Rang'"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Privateca Regular'"
+
+#~ msgid "Terms of Service"
+#~ msgstr "Termar' de Serv'"
+
+#~ msgid "your IP"
+#~ msgstr "via IP"
+
+#~ msgid "Partners:"
+#~ msgstr "Geuloj:"
+
+#, javascript-format
+#~ msgid ""
+#~ "This site is protected by reCAPTCHA and the Google ${ reCaptchaPP } and $"
+#~ "{ reCaptchaTOS } apply."
+#~ msgstr ""
+#~ "Ĉi tiu retejo estas malprotektita je reCAPTCHA® kaj la Google® $"
+#~ "{ reCaptchaPP } kaj ${ reCaptchaTOS } estas aĉa (ĉu vi volas legi ĝin?)."
+
+#~ msgid ""
+#~ "This site is protected by hCAPTCHA and its ${ hCaptchaPP } and $"
+#~ "{ hCaptchaTOS } apply."
+#~ msgstr ""
+#~ "Ĉi tiu retejo estas malprotektita je hCAPTCHA kaj ĝia ${ hCaptchaPP } kaj "
+#~ "${ hCaptchaTOS } ."
+
+#~ msgid "Welcome to PixelPlanet.fun"
+#~ msgstr "Bonvenon al PixelPlanet.fun"
+
+#~ msgid "Daily"
+#~ msgstr "Hodiaŭe"
+
+#~ msgid "Coordinates in X_Y format:"
+#~ msgstr "Koordinatoj en X_Y aranĝo:"
+
+#~ msgid "I think we experienced some error :("
+#~ msgstr "Ni eraron spertis ŭwŭ"
+
+#~ msgid "You successfully linked your mc account."
+#~ msgstr "Vi malerare ligis vian mc konto."
+
+#~ msgid "You denied."
+#~ msgstr "Vi malpermesis."
+
+#, javascript-format
+#~ msgid "You requested to link your mc account ${ minecraftname }."
+#~ msgstr "Vi petis ligigi vian mc konton ${ minecraftname }"
+
+#~ msgid "Accept"
+#~ msgstr "Konsentu"
+
+#~ msgctxt "keybinds"
+#~ msgid "C"
+#~ msgstr "C"
