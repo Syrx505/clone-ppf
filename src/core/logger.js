@@ -1,7 +1,6 @@
 /**
- *
- * http://tostring.it/2014/06/23/advanced-logging-with-nodejs/
- *
+ * Advanced Logging for PixelPlanet Clone
+ * Updated to support automatic directory creation
  */
 
 import fs from 'fs';
@@ -10,14 +9,22 @@ import DailyRotateFile from 'winston-daily-rotate-file';
 
 import { PORT } from './config.js';
 
+// Qovluq yollarını təyin edirik
 export const PIXELLOGGER_PREFIX = `./log/pixels-${PORT}-`;
 const PROXYLOGGER_PREFIX = `./log/proxycheck-${PORT}-`;
 const MODTOOLLOGGER_PREFIX = `./log/moderation/modtools-${PORT}-`;
 
-if (!fs.existsSync('log')) {
-  fs.mkdirSync('log');
-}
+// Qovluqları avtomatik yaradan hissə
+// 'recursive: true' sayəsində daxili qovluqları (moderation) da yaradır
+const directories = ['./log', './log/moderation'];
+directories.forEach(dir => {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+    console.log(`Created directory: ${dir}`);
+  }
+});
 
+// Əsas logger (Konsol üçün)
 const logger = createLogger({
   level: 'info',
   format: format.combine(
@@ -29,6 +36,7 @@ const logger = createLogger({
   ],
 });
 
+// Piksel hərəkətləri üçün logger
 export const pixelLogger = createLogger({
   format: format.printf(({ message }) => message),
   transports: [
@@ -41,6 +49,7 @@ export const pixelLogger = createLogger({
   ],
 });
 
+// Proxy/VPN yoxlamaları üçün logger
 export const proxyLogger = createLogger({
   format: format.combine(
     format.splat(),
@@ -58,6 +67,7 @@ export const proxyLogger = createLogger({
   ],
 });
 
+// Moderator hərəkətləri üçün logger
 export const modtoolsLogger = createLogger({
   format: format.printf(({ message }) => message),
   transports: [
@@ -71,7 +81,5 @@ export const modtoolsLogger = createLogger({
     }),
   ],
 });
-
-
 
 export default logger;
