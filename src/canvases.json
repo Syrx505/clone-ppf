@@ -1,6 +1,7 @@
 {
   "0": {
-    "ident":"d",
+    "ident": "d",
+    "initialMap": "src/ocean.jpg",
     "colors": [
       [ 255, 255, 255 ],
       [ 255, 255, 255 ],
