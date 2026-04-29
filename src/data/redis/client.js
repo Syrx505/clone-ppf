@@ -69,18 +69,17 @@ const scripts = {
   }
 })();
 
-const client = createClient(REDIS_URL.startsWith('redis://')
-  ? {
-    url: REDIS_URL,
-    scripts,
+// UPSTASH VE TLS DESTEKLİ YENİ HİSSƏ
+const client = createClient({
+  url: REDIS_URL,
+  scripts,
+  socket: {
+    // Əgər URL 'rediss://' ilə başlayırsa TLS-i aktiv edir
+    tls: REDIS_URL.startsWith('rediss://'),
+    // Sertifikat yoxlamasında problem çıxmaması üçün
+    rejectUnauthorized: false
   }
-  : {
-    socket: {
-      path: REDIS_URL,
-    },
-    scripts,
-  },
-);
+});
 
 /*
  * for sending messages via cluster
@@ -93,7 +92,15 @@ export const pubsub = {
 export const connect = async () => {
   // eslint-disable-next-line no-console
   console.log(`Connecting to redis server at ${REDIS_URL}`);
-  await client.connect();
+  
+  // Bağlantı xətasını tutmaq üçün try-catch əlavə etdik
+  try {
+    await client.connect();
+    console.log("Redis bağlantısı uğurlu!");
+  } catch (err) {
+    console.error("Redis-ə qoşularkən xəta yarandı:", err);
+  }
+
   if (IS_CLUSTER && isMainThread) {
     const subscriber = client.duplicate();
     await subscriber.connect();
