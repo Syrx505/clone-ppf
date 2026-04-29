@@ -2,8 +2,8 @@
   "0": {
     "ident": "d",
     "title": "Dünya Haritası",
-    "description": "Büyük 2D dünya haritası. İstediğin yere piksel atabilirsin!",
-    "size": 65536,
+    "description": "Daha hızlı ve optimize edilmiş 2D harita!",
+    "size": 16384,
     "palette": [
       [255, 255, 255],
       [228, 228, 228],
