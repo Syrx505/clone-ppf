@@ -14,7 +14,7 @@
     "size": 16384,
     "initialImage": "./src/ocean.png",
     "initialImageScale": 16,
-    "cli": 1,
+    "cli": 0,
     "bcd": 1000,
     "cds": 120000
   },
