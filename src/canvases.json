@@ -12,8 +12,8 @@
       [ 25, 25, 115 ], [ 207, 110, 228 ], [ 130, 0, 128 ]
     ],
     "size": 16384,
-    "initialImage": "./src/ocean.png",
-    "initialImageScale": 16,
+    "initialImage": "src/ocean.png",
+    "initialImageScale": 4,
     "cli": 0,
     "bcd": 1000,
     "cds": 120000
