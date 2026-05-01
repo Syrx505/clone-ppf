@@ -11,9 +11,9 @@
       [ 202, 227, 255 ], [ 0, 211, 221 ], [ 0, 131, 199 ], [ 0, 0, 234 ],
       [ 25, 25, 115 ], [ 207, 110, 228 ], [ 130, 0, 128 ]
     ],
-    "size": 16384,
+    "size": 65536,
     "initialImage": "src/ocean.png",
-    "initialImageScale": 4,
+    "initialImageScale": 16,
     "cli": 0,
     "bcd": 1000,
     "cds": 120000
